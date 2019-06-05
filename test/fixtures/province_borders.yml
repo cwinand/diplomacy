@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  province_code: MyString
+  border_province_code: MyString
+  border_coastal_code: MyString
+
+two:
+  province_code: MyString
+  border_province_code: MyString
+  border_coastal_code: MyString

@@ -1,0 +1,19 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  province_code: MyString
+  name: MyString
+  type: 
+  is_sc: false
+  home_of: 
+  coast_1: MyString
+  coast_2: MyString
+
+two:
+  province_code: MyString
+  name: MyString
+  type: 
+  is_sc: false
+  home_of: 
+  coast_1: MyString
+  coast_2: MyString
