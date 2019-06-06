@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   devise_for :users
-  get 'game/index'
+  get '/profile', to: 'users#show'
+  get '/users/:id', to: 'users#show'
 
-  root 'game#index'
+  root 'users#show'
 end
