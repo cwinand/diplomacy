@@ -1,0 +1,10 @@
+<nav class="main-navigation">
+  <% if user_signed_in? %>
+    <%= link_to 'Create New Game', '/game/new' %>
+    <%= link_to 'Profile', '/profile' %>
+    <%= link_to 'Log Out', '/users/sign_out' %>
+  <% else %>
+    <%= link_to 'Log In', '/users/sign_in' %>
+    <%= link_to 'Sign Up', '/users/sign_up' %>
+  <% end %> 
+</nav>

@@ -5,11 +5,15 @@
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
-    <%= stylesheet_link_tag 'application', media: 'all' %>
+    <%= stylesheet_pack_tag 'base' %>
     <%= javascript_pack_tag 'application' %>
+
+    <%= yield :packs %>
   </head>
 
   <body>
+    <%= render "shared/navigation" %>
+
     <% if notice %>
       <p class="alert alert-success"><%= notice %></p>
     <% end %>
