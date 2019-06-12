@@ -4,6 +4,19 @@
   <%= label_tag :name, 'Game Name' %>
   <%= f.text_field :name %>
 
+  <fieldset>
+    <legend>Invite up to 6 players</legend>
+    <p>Add by username, email, or user ID</p>
+
+    <% (1..6).each do |invite_count| %>
+      <div class="form-control">
+        <label for="invite_<%= invite_count %>">Invite #<%= invite_count %></label>
+        <input id="invite_<%= invite_count %>" name="invites[]" type="text" />
+      </div>
+    <% end %>
+
+  </fieldset>
+
   <%= f.submit 'Continue' %>
 <% end %>
 

@@ -34,8 +34,28 @@
       <% @game.game_provinces.each do |p| %>
         <tr>
           <td><%= p.province_code %></td>
-          <td><%= @game.provinces.find(p.province_code).name %></td>
+          <td><%= p.province.name %></td>
           <td><%= p.owner %></td>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
+</p>
+
+<p>
+  <strong>Invites</strong>
+  <table>
+    <thead>
+      <tr>
+        <th>Username</th>
+        <th>Invite Pending</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% @game.game_players.each do |player| %>
+        <tr>
+          <td><%= player.user.username %></td>
+          <td><%= player.pending %></td>
         </tr>
       <% end %>
     </tbody>

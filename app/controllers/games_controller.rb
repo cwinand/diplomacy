@@ -24,10 +24,14 @@ class GamesController < ApplicationController
     @game = Game.new(game_params)
     @game.user = current_user
     @game.save
+
     @game.game_provinces.create( provinces_for_new_game )
+    @game.game_players.create( players_for_new_game )
+    @game.game_players.create( user_id: current_user.id, game_id: @game.id, pending: false, confirmed: true )
 
     respond_to do |format|
       if @game.id
+        @provinces = Province.all
         format.html { redirect_to @game, notice: 'Game was successfully created.' }
         format.json { render :show, status: :created, location: @game }
       else
@@ -67,12 +71,21 @@ class GamesController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def game_params
-      params.require(:game).permit(:name, :user_id, :started_at, :ended_at)
+      params.require(:game).permit(:name, :user_id, :started_at, :ended_at, :game_players => [])
     end
 
     def provinces_for_new_game
       Province.all.map do |province|
         { province_code: province.province_code, game_id: @game.id, owner: province.home_of }
+      end
+    end
+
+    def players_for_new_game
+      users = User.where( username: params[ :invites ] )
+        .or( User.where( email: params[ :invites ] ) )
+
+      users.map do |user|
+        { game_id: @game.id, pending: true, user_id: user.id  }
       end
     end
 end
