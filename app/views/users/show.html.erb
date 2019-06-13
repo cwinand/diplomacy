@@ -1,7 +1,21 @@
 <% content_for :packs do %>
-  <%= stylesheet_pack_tag 'profile' %>
-  <%= javascript_pack_tag 'profile' %>
 <% end %>
+<input id="user_json" type="hidden" value="<%= @user.to_json %>">
 
-<h1>Welcome, <%= @user.email %></h1>
+<h1>Profile</h1>
 
+<h2>Pending Invites</h2>
+<% @user.pending_invites.each do |p| %>
+  <p>Game Name: <%= p.game.name %></p>
+
+  <%= form_for @user, url: { action: 'accept_invite', id: @user.id } do %>
+    <input type="hidden" name="invite_id" value="<%= p.id %>">
+    <input type="submit" value="Accept">
+  <% end %>
+
+  <%= form_for @user, url: { action: 'decline_invite', id: @user.id } do %>
+    <input type="hidden" name="invite_id" value="<%= p.id %>">
+    <input type="submit" value="Decline">
+  <% end %>
+
+<% end %>

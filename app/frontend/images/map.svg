@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="942px" height="789px" viewBox="0 0 942 789" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <g id="Group-2">
+                <polygon id="nat" stroke="#979797" fill-rule="nonzero" points="0 1.53210777e-14 8.11295475e-14 383 148 394 153 364 170 353 170 336 191 297 234 287 243 297 247 321 268 330 268 316 253 314 269 234 282 234 296 156 255 81 211 86 183 57 196 15 213 10 212 1.53210777e-14"></polygon>
+                <text id="North-Atlantic" font-family="Inconsolata-Regular, Inconsolata" font-size="12" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="97" y="211">North Atlantic</tspan>
+                </text>
+            </g>
+            <g id="Group-3" transform="translate(212.000000, 0.000000)">
+                <polygon id="nrg" stroke="#979797" fill-rule="nonzero" points="371 -1.55431223e-15 368 28 359 28 350 31 350 44 320 56 280 118 239 169 192 192 192 208 122 215 88 242 69 235 84 155 43 81 58 73 62 39 12 19 1 10 2.84217094e-14 -2.84217094e-14"></polygon>
+                <text id="Norwegian-Sea" font-family="Inconsolata-Regular, Inconsolata" font-size="12" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="141" y="97">Norwegian Sea</tspan>
+                </text>
+            </g>
+            <g id="Group-4" transform="translate(284.000000, 208.000000)">
+                <polygon id="nth" stroke="#979797" fill-rule="nonzero" points="124 126 80 125 67 135 66 147 75 176 64 193 69 197.892716 69 202 57 203 43 208 28 210 24 203 18 195 22 189 28 191 28 182 37 174 28 161 18 164 21 159 21 148 24 137 18 125 9 118 12 108 12 101 7 91 4 80 20 68 24 58 12 55 1.50712776e-14 55 1.42108547e-14 49 16 39 16 34 50 7 120 2.84217094e-14 115 12 112 26 110 39 112 55 108 63 120 74 112 86 115 97 124 103 130 103 130 110 124 110"></polygon>
+                <text id="North-Sea" font-family="Inconsolata-Regular, Inconsolata" font-size="12" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="34" y="100">North Sea</tspan>
+                </text>
+            </g>
+            <g id="Group-5" transform="translate(0.000000, 384.000000)">
+                <polygon id="mid" stroke="#979797" fill-rule="nonzero" points="2.12503626e-16 0 148 10 163 16 184 35 190 47 198 61 213 69 214 76 223 77 238 95 239 109 245 121 243 131 238 145 232 162 223 176 142 139 111 139 111 172 84 218 78 226 84 245 72 267 94 276 107 276 120 303 120 314 107 318 87 342 68 348 52 348 38 355 35 362 31 367 23 374 14 386 14 403 0 403"></polygon>
+                <text id="Mid-Atlantic-Ocean" font-family="Inconsolata-Regular, Inconsolata" font-size="12" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="51" y="88">Mid-Atlantic Ocean</tspan>
+                </text>
+            </g>
+            <g id="Group-6" transform="translate(243.000000, 234.000000)">
+                <polygon id="cly" stroke="#979797" fill-rule="nonzero" points="48 5 33 21 30 27 30 40 30 67 33 77 26 82 11 80 26 1.1379786e-15 38 0"></polygon>
+                <text id="Clyde" font-family="Inconsolata-Regular, Inconsolata" font-size="12" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="0" y="30">Clyde</tspan>
+                </text>
+            </g>
+            <g id="Group-7" transform="translate(148.000000, 321.000000)">
+                <polygon id="iri" stroke="#979797" fill-rule="nonzero" points="-2.13162821e-14 73 5 43 22 33 32 39 51 39 73 39 87 10 87 2.84217094e-14 99 2.84217094e-14 121 10 121 24 115 24 97 29 92 33 99 39 92 46 81 46 84 56 92 56 102 66 115 63 106 71 92 71 81 71 73 81 60.5 85 36 98 15 79"></polygon>
+                <text id="Irish-Sea" font-family="Inconsolata-Regular, Inconsolata" font-size="12" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="21" y="65">Irish Sea</tspan>
+                </text>
+            </g>
+            <g id="Group-8" transform="translate(273.000000, 239.000000)">
+                <polygon id="edi" stroke="#979797" fill-rule="nonzero" points="27 3 27 8 18 14 11 18 11 24 23 24 35 27 31 37 15 49 18 60 23 70 23 77 11 77 4 72 1 62 -1.17239551e-13 24 4 15 18 -7.10542736e-15"></polygon>
+                <text id="Edinburgh" font-family="Inconsolata-Regular, Inconsolata" font-size="12" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="7" y="40">Edinburgh</tspan>
+                </text>
+            </g>
+            <g id="Group-9" transform="translate(277.000000, 316.000000)">
+                <polygon id="yor" stroke="#979797" fill-rule="nonzero" points="19 7.10542736e-15 16 10 25 17 31 29 28 40 28 51 25 56 16 60 3 60 3.55271368e-15 54 3 49 3 37 3 27 9 17 9 7.10542736e-15"></polygon>
+                <text id="Yorkshire" font-family="Inconsolata-Regular, Inconsolata" font-size="12" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="6" y="39">Yorkshire</tspan>
+                </text>
+            </g>
+            <g id="Group-10" transform="translate(227.000000, 311.000000)">
+                <polygon id="lvp" stroke="#979797" fill-rule="nonzero" points="50 58 39 55 33 48 33 42 35 37 41.5 34 42 20 42 5 50 0 59 7 59 24 52 34 52 42 52 55"></polygon>
+                <text id="Liverpool" font-family="Inconsolata-Regular, Inconsolata" font-size="12" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="0" y="27">Liverpool</tspan>
+                </text>
+            </g>
+            <g id="Group-11" transform="translate(212.000000, 345.000000)">
+                <polygon id="wal" stroke="#979797" fill-rule="nonzero" points="61 64 45 66 33 61 25 66 2 64 0 61 9 58 18 47 42 47 52 39 38 42 28 31 20 31 18 22 28 22 35 15 28 8 48 0 57 0 50 4 48 10 48 15 55 22 63 24 68 31 63 39 57 51 59 58"></polygon>
+                <text id="Wales" font-family="Inconsolata-Regular, Inconsolata" font-size="12" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="20" y="58">Wales</tspan>
+                </text>
+            </g>
+            <g id="Group-12" transform="translate(269.000000, 369.000000)">
+                <polygon id="lon" stroke="#979797" fill-rule="nonzero" points="43 0 33 3 24 7 11 7 0 27 4 40 20 44 22 48 39 42 33 34 37 28 43 30 43 21 52 13"></polygon>
+                <text id="London" font-family="Inconsolata-Regular, Inconsolata" font-size="12" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="6" y="25">London</tspan>
+                </text>
+            </g>
+            <g id="Group-13" transform="translate(94.000000, 523.000000)">
+                <polygon id="spa" stroke="#979797" fill-rule="nonzero" points="16 1 48 1.42108547e-14 129 37 128 45 157 61 164 59 196 77 194 86 188 90 180 94 165 94 156 97 126 126 126 133 133 139 133 141 127 146 111 160 97 160 86 171 58 163 26 167 26 164 13 137 2.84217094e-14 137 3 132 18 120 18 106 23 102 23 91 21 89 21 84 27 84 33 80 36 70 42 60 49 56 54 55 54 50 46 40 35 40 30 35 30 29 16 33"></polygon>
+                <text id="Spain" font-family="Inconsolata-Regular, Inconsolata" font-size="12" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="64" y="104">Spain</tspan>
+                </text>
+                <text id="NC" font-family="Inconsolata-Regular, Inconsolata" font-size="12" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="58" y="21">NC</tspan>
+                </text>
+                <text id="SC" font-family="Inconsolata-Regular, Inconsolata" font-size="12" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="78" y="161">SC</tspan>
+                </text>
+            </g>
+            <g id="Group-14" transform="translate(72.000000, 552.000000)">
+                <polygon id="por" stroke="#979797" fill-rule="nonzero" points="39 4 6 58 12 77 -1.42108547e-14 99 22 107 26 101 40 90 40 77 45 73 45 62 43 60 43 55.5 49 54 54 51 59 37 65 29 71 26 76 25 76 20 68 11 57 11 52 6 52 -5.68434189e-14"></polygon>
+                <text id="Portugal" font-family="Inconsolata-Regular, Inconsolata" font-size="12" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="4" y="48">Portugal</tspan>
+                </text>
+            </g>
+            <g id="Group-15" transform="translate(14.000000, 698.000000)">
+                <polygon id="naf" stroke="#979797" fill-rule="nonzero" points="21 48 24 41 38 34 54 34 73 28 93 4 106 7.10542736e-15 110 4 112 11 119 20 130 20 146 21 148 26 161 32 170 32 178 22 207 22 214 17 235 17 241 21 256 22 271 20 282 24 290 29 294 31 299 28 313 25 328 29 341 34 331 50 334 67 333 89 -2.84217094e-14 89 9.34356759e-14 72 9 60 17 53"></polygon>
+                <text id="North-Africa" font-family="Inconsolata-Regular, Inconsolata" font-size="12" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="106" y="67">North Africa</tspan>
+                </text>
+            </g>
+            <g id="Group-16" transform="translate(345.000000, 728.000000)">
+                <polygon id="tun" stroke="#979797" fill-rule="nonzero" points="-4.97379915e-14 20 10 4 22 2.84217094e-14 37 2.89213098e-14 44 7 56 4 60 7 47 18 42 20 42 28 50 33 60 59 2 59 3 37"></polygon>
+                <text id="Tunis" font-family="Inconsolata-Regular, Inconsolata" font-size="12" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="7" y="43">Tunis</tspan>
+                </text>
+            </g>
+            <g id="Group-17" transform="translate(120.000000, 656.000000)">
+                <polygon id="wes" stroke="#979797" fill-rule="nonzero" points="248 72 246 36 242 31 242 7 176 0 162 0 140 3 125 9 107 7 85 27 71 27 60 38 32 31 3.53050922e-14 34 2.84217094e-14 42 4 47 13 62 40 62 43 68 56 74 63 74 71 64 101 64 108 59 129 59 136 63 150 64 165 62 177 66 188 72 192 70 207 66 235 76"></polygon>
+                <text id="Western-Mediterranea" font-family="Inconsolata-Regular, Inconsolata" font-size="12" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="99" y="42">Western Mediterranean</tspan>
+                </text>
+            </g>
+            <g id="Group-18" transform="translate(220.000000, 574.000000)">
+                <polygon id="lyo" stroke="#979797" fill-rule="nonzero" points="142 89 75 82 61 82 40 85 25 91 7 89 -1.42108547e-14 82 -1.42108547e-14 75 30 46 39 43 54 43 68 35 70 25 72 13 79 5 95 5 105 12 119 21 127 21 138 11 145 10 152 5 163 -1.42108547e-14 171 3 176 9 180 12 183 27 167 34 156 37 153 46 153 55 158 62 158 69 150 74 142 75 141 81"></polygon>
+                <text id="Gulf-of-Lyons" font-family="Inconsolata-Regular, Inconsolata" font-size="12" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="65" y="52">Gulf of Lyons</tspan>
+                </text>
+            </g>
+            <g id="Group-19" transform="translate(264.000000, 529.000000)">
+                <polygon id="mar" stroke="#979797" fill-rule="nonzero" points="100 55 94 56 83 66 75 66 51 50 35 50 28 58 26 71 -1.42108547e-14 56 22 28 30 29 39 24 51 25 58 21 57 1 64 -1.42108547e-14 74 2 81 7 87 3 95 1 97 11 91 14 95 20 95 26 89 31"></polygon>
+                <text id="Marseilles" font-family="Inconsolata-Regular, Inconsolata" font-size="12" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="23" y="45">Marseilles</tspan>
+                </text>
+            </g>
+            <g id="Group-20" transform="translate(222.000000, 504.000000)">
+                <polygon id="gas" stroke="#979797" fill-rule="nonzero" points="23 1 10 43 1 56 0 64 29 80 36 78 42 81 64 53 73 54 82 49 76 37 78 28 65 20 49 5 32 7.10542736e-15"></polygon>
+                <text id="Gascony" font-family="Inconsolata-Regular, Inconsolata" font-size="12" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="19" y="45">Gascony</tspan>
+                </text>
+            </g>
+            <g id="Group-21" transform="translate(212.000000, 428.000000)">
+                <polygon id="bre" stroke="#979797" fill-rule="nonzero" points="59 81 42 76 33 77 27 65 26 51 11 33 2 32 2 25 2 17 0 13 12 11 16 15 20 11 24 15 33 21 42 25 44 15 42 6 40 2 44 5.68434189e-14 51 2 51 13 57 13 63 17 62 30 60 32 58 44"></polygon>
+                <text id="Brest" font-family="Inconsolata-Regular, Inconsolata" font-size="12" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="25" y="44">Brest</tspan>
+                </text>
+            </g>
+            <g id="Group-22" transform="translate(270.000000, 455.000000)">
+                <polygon id="par" stroke="#979797" fill-rule="nonzero" points="1 54 0 17 2 5 4 3 18 5 31 1 39 0 45 3 53 5 63 11 62 17 57 25 28 42 28 59 17 69"></polygon>
+                <text id="Paris" font-family="Inconsolata-Regular, Inconsolata" font-size="12" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="11" y="27">Paris</tspan>
+                </text>
+            </g>
+            <g id="Group-23" transform="translate(287.000000, 452.000000)">
+                <polygon id="bur" stroke="#979797" fill-rule="nonzero" points="54 81 51 79 41 77 34 78 35 98 28 102 17 101 11 89.5 13 80 7.10542736e-15 72 11 62 11 45 40 28 45 20 46 14 50 10 51 0 73 12 73 22 82 32 83 44 80 47 81 51"></polygon>
+                <text id="Burgundy" font-family="Inconsolata-Regular, Inconsolata" font-size="12" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="24" y="55">Burgundy</tspan>
+                </text>
+            </g>
+            <g id="Group-24" transform="translate(274.000000, 430.000000)">
+                <polygon id="pic" stroke="#979797" fill-rule="nonzero" points="64 22 46 7 32 0 25 5 12 7 10 13 1 15 0 28 14 30 28 26 35 25 49 30 59 36 63 32"></polygon>
+                <text id="Picardy" font-family="Inconsolata-Regular, Inconsolata" font-size="12" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="10" y="21">Picardy</tspan>
+                </text>
+            </g>
+            <g id="Group-25" transform="translate(306.000000, 413.000000)">
+                <polygon id="bel" stroke="#979797" fill-rule="nonzero" points="54 51 32 39 14 24 3.55271368e-15 17 6 5 21 3 29 -1.42108547e-14 36 7 48 11 52 21 57 25.5 58 34 59 43"></polygon>
+                <text id="Belgium" font-family="Inconsolata-Regular, Inconsolata" font-size="12" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="4" y="19">Belgium</tspan>
+                </text>
+            </g>
+            <g id="Group-26" transform="translate(335.000000, 377.000000)">
+                <polygon id="hol" stroke="#979797" fill-rule="nonzero" points="28 61 23 57 19 47 7 43 0 36 7 34 18 33 18 28.8927157 13 24 24 7 29 22 37 16 37 11 34 10 34 7.10542736e-15 49 7.10542736e-15 52 6 52 18 48 27 47 33 43 36 37 37 34 46"></polygon>
+                <text id="Holland" font-family="Inconsolata-Regular, Inconsolata" font-size="12" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="2" y="30">Holland</tspan>
+                </text>
+            </g>
+            <g id="Group-27" transform="translate(408.000000, 295.000000)">
+                <polygon id="den" stroke="#979797" fill-rule="nonzero" points="6 16 11 10 25 10 34 -6.39488462e-14 36 2 36 12 30 18 27 20 27 25 37 26 37 34 26 37 21.5 45 21.5 48 30 48 36 44 39 41 49 41 55 41 57 42 59 47 59 51 30 53 30 58 18 56 18 63 15 65 7 68 4 63 4 55 7 47 -1.0658141e-14 39 -1.0658141e-14 23 6 23"></polygon>
+                <text id="Denmark" font-family="Inconsolata-Regular, Inconsolata" font-size="12" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="4" y="33">Denmark</tspan>
+                </text>
+            </g>
+            <g id="Group-28" transform="translate(392.000000, 22.000000)">
+                <polygon id="nor" stroke="#979797" fill-rule="nonzero" points="12 260 22 264 43 249 53 245 56 232 60 232 61 242 64 250 66 253 70 253 72 236 78 220 79 207 84 199 84 189 84 150 100 144 103 135 110 126 112 110 127 92 127 81 132 74 132 64 140 63 145 57 157 55 162 46 164 39 168 37 171 39 182 47 200 44 202 28 212 25 220 28 226 46 237 32 238 26 225 26 232 20 234 11 225 8 211 0 207 5 188 6 178 6 170 9 169.86041 22.1947215 140 34 103 93 59 147 12 170 12 186 7 198 2 225 4 241 4.26325641e-14 249"></polygon>
+                <text id="Norway" font-family="Inconsolata-Regular, Inconsolata" font-size="12" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="24" y="209">Norway</tspan>
+                </text>
+            </g>
+            <g id="Group-29" transform="translate(396.000000, 254.000000)">
+                <polygon id="ska" stroke="#979797" fill-rule="nonzero" points="62 21 57 10 56 0 52 0 49 13 39 17 18 32 8 28 -7.10542736e-15 40 3 51 13 57 18 57 23 51 37 51 46 41 48 43 48 53 39 61 39 66 49 67 49 75 38 78 34 86 34 89 42 89 51 82 55 82 63 82 66 82 66 80 66 77 67 75 69 68 66 56 62 44 62 31 56 30 56 19"></polygon>
+                <text id="Skagerrack" font-family="Inconsolata-Regular, Inconsolata" font-size="12" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="3" y="39">Skagerrack</tspan>
+                </text>
+            </g>
+            <g id="Group-30" transform="translate(426.000000, 295.000000)">
+                <polygon id="bal" stroke="#979797" fill-rule="nonzero" points="-4.26325641e-14 56 -3.55548924e-14 63 10 75 12 81 20 81 23 78 40 78 48 91 53 92 56 96 60 95 59 88 63 82 94 72 109 73 110 79 118 79 118 82 125 81 125 71 121 71 134 57 139 59 138 53 133 45 135 29 137 19 111 9 87 -4.26325641e-14 83 17 82 27 75 37 75 42 56 44 53 57 41 56 39 51 12 53 12 58"></polygon>
+                <text id="Baltic-Sea" font-family="Inconsolata-Regular, Inconsolata" font-size="12" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="62" y="60">Baltic Sea</tspan>
+                </text>
+            </g>
+            <g id="Group-31" transform="translate(382.000000, 358.000000)">
+                <polygon id="kie" stroke="#979797" fill-rule="nonzero" points="60 18 60 33 56 40 56 59 55 66 56 77 40 85 29 94 25 83 12 75 6 66 2 59 7.10542736e-15 52 1 46 5 37 5 25 7 25 7 17 12 16 18 19 18 23 22 23 23 20 29 16 29 7 33 5 41 2 44 2.84217094e-14 54 12 56 18"></polygon>
+                <text id="Kiel" font-family="Inconsolata-Regular, Inconsolata" font-size="12" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="19" y="49">Kiel</tspan>
+                </text>
+            </g>
+            <g id="Group-32" transform="translate(437.000000, 373.000000)">
+                <polygon id="ber" stroke="#979797" fill-rule="nonzero" points="5 3 5 18 1 25 1 44 -3.55271368e-15 52 1 62 8 59 13 59 25 58 28 54 37 52 44 49 49 45 49 39 47 32.5 46 27 45 21 45 18 42 14 37 13 29 3.9829251e-15 12 3.55271368e-15 9 3"></polygon>
+                <text id="Berlin" font-family="Inconsolata-Regular, Inconsolata" font-size="12" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="7" y="37">Berlin</tspan>
+                </text>
+            </g>
+            <g id="Group-33" transform="translate(360.000000, 410.000000)">
+                <polygon id="ruh" stroke="#979797" fill-rule="nonzero" points="51 42 47 31 34 23 24 7 22 2.84217094e-14 18 3 12 4 3 28 5 46 1.0658141e-14 54 1.0658141e-14 64 9 74 18 64 25 54 33 47 40 44 47 43"></polygon>
+                <text id="Ruhr" font-family="Inconsolata-Regular, Inconsolata" font-size="12" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="9" y="43">Ruhr</tspan>
+                </text>
+            </g>
+            <g id="Group-34" transform="translate(367.000000, 432.000000)">
+                <polygon id="mun" stroke="#979797" fill-rule="nonzero" points="2 52 3 64 3.55271368e-14 67 1 71 7 74 12 71 27 74 29 68 32 68 44 79 58 79 67 79 71 77 76 78 82 82 83 78 81 71 85 66 90 64 96 62 94 58 88 55 86 51 77 45 68 33 68 25 73 22 77 22 89 23 88 14 85 7 83 -1.42108547e-14 78 -1.42108547e-14 71 3 55 11 44 20 33 22 26 25 18 32 11 42"></polygon>
+                <text id="Munich" font-family="Inconsolata-Regular, Inconsolata" font-size="12" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="24" y="54">Munich</tspan>
+                </text>
+            </g>
+            <g id="Group-35" transform="translate(353.000000, 534.000000)">
+                <polygon id="pie" stroke="#979797" fill-rule="nonzero" points="8 5 20 6 25 7.10542736e-15 37 10 46 5 53 3 59 5 55 12 55 19 50 25 47 28 47 44 44 50 38 43 30 40 19 45 11 50 -1.42108547e-14 26 6 21 6 15 2 9"></polygon>
+                <text id="Piedmont" font-family="Inconsolata-Regular, Inconsolata" font-size="12" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="7" y="19">Piedmont</tspan>
+                </text>
+            </g>
+            <g id="Group-36" transform="translate(394.000000, 494.000000)">
+                <polygon id="tyr" stroke="#979797" fill-rule="nonzero" points="1.42108547e-14 12 5 18 7 24 19 34 20 38 15 44 18 45 14 52 14 59 20 57 24 60 31 59 37 47 46 41 53 44 62 43 63 36 76 35 82 34 85 28 85 8 86 2 69 2.13162821e-14 58 4 54 9 56 16 55 20 49 16 44 15 40 17 17 17 5 6 2 6"></polygon>
+                <text id="Tyrolia" font-family="Inconsolata-Regular, Inconsolata" font-size="12" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="28" y="32">Tyrolia</tspan>
+                </text>
+            </g>
+            <g id="Group-37" transform="translate(400.000000, 535.000000)">
+                <polygon id="ven" stroke="#979797" fill-rule="nonzero" points="56 2 47 3 40 -2.84217094e-14 31 6 25 18 18 19 14 16 8 18 1.55431223e-15 27 0 43 9 47 19 51 26 55 39 68 38 76 43 82 43 91 47 95 50 97 53 92 59 89 57 83 53 77 54 64 50 62 43 58 37 55 33 48.5 33 35 36 34 34 29 34 24 41 25 44 21 55 20 56 16"></polygon>
+                <text id="Venice" font-family="Inconsolata-Regular, Inconsolata" font-size="12" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="5" y="37">Venice</tspan>
+                </text>
+            </g>
+            <g id="Group-38" transform="translate(383.000000, 578.000000)">
+                <polygon id="tus" stroke="#979797" fill-rule="nonzero" points="55 33 46 35 38 45 30 44 25 35 19 30 20 23 17 8 14 6 17 3.55271368e-15 36 8 43 12 56 25"></polygon>
+                <text id="Tuscany" font-family="Inconsolata-Regular, Inconsolata" font-size="12" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="0" y="21">Tuscany</tspan>
+                </text>
+            </g>
+            <g id="Group-39" transform="translate(421.000000, 611.000000)">
+                <polygon id="rom" stroke="#979797" fill-rule="nonzero" points="29 21 40 33 38 37 31 41 19 37 10 27 0 12 8 2 17 0 22 6 22 15"></polygon>
+                <text id="Rome" font-family="Inconsolata-Regular, Inconsolata" font-size="12" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="1" y="25">Rome</tspan>
+                </text>
+            </g>
+            <g id="Group-40" transform="translate(450.000000, 624.000000)">
+                <polygon id="apu" stroke="#979797" fill-rule="nonzero" points="11 20 16 22 22 27 30 37 32 47 40 55 45 55 47 50 52 42 56 43 58 48 67 51 72 58 75 58 74 48 67 45 60 38 50 33 35 21 38 12 28 11 22 10 14 7 9 0 3 3 0 8"></polygon>
+                <text id="Apulia" font-family="Inconsolata-Regular, Inconsolata" font-size="12" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="27" y="31">Apulia</tspan>
+                </text>
+            </g>
+            <g id="Group-41" transform="translate(452.000000, 644.000000)">
+                <polygon id="nap" stroke="#979797" fill-rule="nonzero" points="3.55271368e-15 8 2 14 9 14 10 18 17 21 17 30 23 34 28 38 32 44 34 56 31 64 27 71 24 73 26 76 33 79 39 68 42 58 48 58 52 51 47 45 41 45 43 35 38 35 30 27 28 17 19 6 13 2 9 -2.84217094e-14 7 4"></polygon>
+                <text id="Naples" font-family="Inconsolata-Regular, Inconsolata" font-size="12" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="8" y="53">Naples</tspan>
+                </text>
+            </g>
+            <g id="Group-42" transform="translate(366.000000, 601.000000)">
+                <polygon id="tyr" stroke="#979797" fill-rule="nonzero" points="36 7 42 12 47 21 55 22 65 37 74 47 86 51 88 57 95 57 96 61 103 64 103 73 114 81 118 87 120 99 117 107 113 114 110 116 101 116 97 118 92 115 73 119 72 112 66 114 60 115 58 122 38 134 35 131 23 134 16 127 2 127 -1.42108547e-14 91 3 89 16 85 17 61 20 58 15 42 12 42 12 35 15 34 15 25 19 24 20 20 21 10 23 6 37 -5.68434189e-14"></polygon>
+                <text id="Tyrrhenian-Sea" font-family="Inconsolata-Regular, Inconsolata" font-size="12" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="30" y="75">Tyrrhenian</tspan>
+                    <tspan x="30" y="87">Sea</tspan>
+                </text>
+            </g>
+            <g id="Group-43" transform="translate(387.000000, 666.000000)">
+                <polygon id="ion" stroke="#979797" fill-rule="nonzero" points="5 80 18 69 37 57 40 62 52 65 59 72 70 73 71 76 74 82 81 81 80 76 81 70 80 63 83 57 98 57 104 46 107 36 113 36 117 29 112 23 106 23 108 13 110 8 115 -7.10542736e-15 119 1 121 6 130 9 135 16 138 16 138 9 153 6 164 19 168 25 178 35 175 39 181 44 186 51 184 54 181 59 188 65 189 81 195 88 216 87 221 97 227 112 226 121 18 121 8 95 1.42108547e-14 90 1.42108547e-14 82"></polygon>
+                <text id="Ionian-Sea" font-family="Inconsolata-Regular, Inconsolata" font-size="12" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="99" y="90">Ionian Sea</tspan>
+                </text>
+            </g>
+            <g id="Group-44" transform="translate(519.000000, 626.000000)">
+                <polygon id="alb" stroke="#979797" fill-rule="nonzero" points="32 59 42 50 46 36 38 30 37 27 37 10 32 3 27 3 20 0 15 8 21 13 24 18 21 46"></polygon>
+                <text id="Albania" font-family="Inconsolata-Regular, Inconsolata" font-size="12" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="0" y="39">Albania</tspan>
+                </text>
+            </g>
+            <g id="Group-45" transform="translate(453.000000, 522.000000)">
+                <polygon id="tri" stroke="#979797" fill-rule="nonzero" points="81 112 78 106 70 103 64 99 59 102 53 96 54 91 48 85 41 87 35 84 29 68 29 63 22 55 19 39 10 39 8 49 4 50 -1.42108547e-14 43 2 33 3 29 3 15 4 8 23 6 26 0 31 4 35 10 37 13 46 12 51 9 52 12 53 23 54 26 64 34 70 34 74 39 76 46 83 50 87 54 85 59 86 66 87 73 84 76 83 81 80 84 83 89 94 102 98 107 93 107 86 104"></polygon>
+                <text id="Trieste" font-family="Inconsolata-Regular, Inconsolata" font-size="12" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="31" y="58">Trieste</tspan>
+                </text>
+            </g>
+            <g id="Group-46" transform="translate(433.000000, 555.000000)">
+                <polygon id="adr" stroke="#979797" fill-rule="nonzero" points="107 116 110 89 107 84 101 79 98 73 90 70 84 66 79 69 73 63 74 58 68 52 61 54 55 51 49 35 49 30 42 22 39 6 30 6 28 16 24 17 20 10 22 -2.13162821e-14 11 1 8 5 1 4 1 9 3 14 0 15 0 28 4 35 21 44 20 57 24 63 26 69 31 76 39 79 55 81 52 90 67 102 77 107 84 114 91 117 92 120 107 117"></polygon>
+                <text id="Adriatic-Sea" font-family="Inconsolata-Regular, Inconsolata" font-size="12" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="28" y="62">Adriatic</tspan>
+                    <tspan x="28" y="74">Sea</tspan>
+                </text>
+            </g>
+            <g id="Group-47" transform="translate(479.000000, 479.000000)">
+                <polygon id="vie" stroke="#979797" fill-rule="nonzero" points="25 52 35 42 41 36 48 34 50 25 57 19 61 14 67 15 68 10 65 7 57 2 44 3 39 4 33 2 23 2 18 4 17 3.55271368e-15 11 2 8 5 3 12 1 17 7.10542736e-15 23 7.10542736e-15 43 5 47 11 56 20 55"></polygon>
+                <text id="Vienna" font-family="Inconsolata-Regular, Inconsolata" font-size="12" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="7" y="29">Vienna</tspan>
+                </text>
+            </g>
+            <g id="Group-48" transform="translate(435.000000, 443.000000)">
+                <polygon id="boh" stroke="#979797" fill-rule="nonzero" points="88 39 89 27 79 20 72 21 70 15 62 7 56 5 51 2 47 1 45 4 42 2 39 0 35 1 35 6 32 6 21 12 5 11 1.42108547e-14 14 1.42108547e-14 22 9 34 18 40 20 44 26 47 28 51 45 53 47 48 54 39 61 36 62 40 67 38 77 38 83 40"></polygon>
+                <text id="Bohemia" font-family="Inconsolata-Regular, Inconsolata" font-size="12" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="25" y="32">Bohemia</tspan>
+                </text>
+            </g>
+            <g id="Group-49" transform="translate(450.000000, 418.000000)">
+                <polygon id="sil" stroke="#979797" fill-rule="nonzero" points="36 -3.55271368e-15 39 2 48 3 60 3 68 6 69 12 73 22 75 31 89 45 81 52 74 52 64 45 57 46 55 40 47 32 41 30 36 27 32 26 30 29 24 25 20 26 20 31 17 31 6 37 5 28 -2.13162821e-14 14 12 13 15 9 24 7 31 4"></polygon>
+                <text id="Silesia" font-family="Inconsolata-Regular, Inconsolata" font-size="12" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="25" y="22">Silesia</tspan>
+                </text>
+            </g>
+            <g id="Group-50" transform="translate(551.000000, 647.000000)">
+                <polygon id="gre" stroke="#979797" fill-rule="nonzero" points="-2.84217094e-14 38 9 30 14 16 19 12 32 12 39 5 47 5 61 -7.10542736e-15 72 -7.10542736e-15 74 5 74 12 61 14 61 20 68 24 66 30 55 32 45 20 39 24 45 36 55 45 55 54 72 68 74 72 55 81 49 93 52 106 31 107 25 100 24 84 17 78 22 70 17 63 11 58 14 54"></polygon>
+                <text id="Greece" font-family="Inconsolata-Regular, Inconsolata" font-size="12" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="22" y="66">Greece</tspan>
+                </text>
+            </g>
+            <g id="Group-51" transform="translate(590.000000, 656.000000)">
+                <polygon id="aeg" stroke="#979797" fill-rule="nonzero" points="35 3 46 0 69 10 59 26 66 29 69 36 72 52 66 51 62 46 62 56 72 60 76 66 83 76 86 88 99 90 93 97 74 117 52 126 34 123 24 122 16 103 13 97 10 84 16 72 34.5 63 33 59 16 45 16 36 6 27 2.84217094e-14 15 6 11 16 23 27 21 29 15 22 11 22 5"></polygon>
+                <text id="Aegean-Sea" font-family="Inconsolata-Regular, Inconsolata" font-size="12" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="19" y="86">Aegean Sea</tspan>
+                </text>
+            </g>
+            <g id="Group-52" transform="translate(533.000000, 576.000000)">
+                <polygon id="ser" stroke="#979797" fill-rule="nonzero" points="57 76 54 73 54 69 62 66 61 59 52 44 52 40 61 40 61 36 54 30 51 23 54 16 58 14 53 8 52 1 45 5 37 1 21 2.63677968e-16 7 0 5 5 7 19 4 22 3 27 0 30 3 35 23 60 23 77 25 80 32 86 37 83 50 83"></polygon>
+                <text id="Serbia" font-family="Inconsolata-Regular, Inconsolata" font-size="12" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="11" y="32">Serbia</tspan>
+                </text>
+            </g>
+            <g id="Group-53" transform="translate(584.000000, 589.000000)">
+                <polygon id="bul" stroke="#979797" fill-rule="nonzero" points="7 1 12 8 15 6 19 4.5 27 10 51 10 66 7.10542736e-15 86 3 93 7 87 13 86 25 82 30 90 42 74 43 64 49 68 58 61 71 52 67 41 70 41 63 39 58 28 58 14 63 6 63 3 60 3 56 11 53 10 46 1 31 1 27 10 27 10 23 3 17 2.13162821e-14 10 3 3"></polygon>
+                <text id="Bulgaria" font-family="Inconsolata-Regular, Inconsolata" font-size="12" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="21" y="38">Bulgaria</tspan>
+                </text>
+                <text id="EC" font-family="Inconsolata-Regular, Inconsolata" font-size="12" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="72" y="21">EC</tspan>
+                </text>
+                <text id="SC" font-family="Inconsolata-Regular, Inconsolata" font-size="12" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="46" y="65">SC</tspan>
+                </text>
+            </g>
+            <g id="Group-54" transform="translate(645.000000, 631.000000)">
+                <polygon id="con" stroke="#979797" fill-rule="nonzero" points="29 1.42108547e-14 13 1 3 7 7 16 7.10542736e-15 29 14.5 35 4 51 11 54 13 59 27 58 33 61 45 63 53 60 65 62 85 59 85 44 87 35 79 18 79 10 71 14 48 14"></polygon>
+                <text id="Constantinople" font-family="Inconsolata-Regular, Inconsolata" font-size="12" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="10" y="28">Constantinople</tspan>
+                </text>
+            </g>
+            <g id="Group-55" transform="translate(613.000000, 719.000000)">
+                <polygon id="eas" stroke="#979797" fill-rule="nonzero" points="-2.84217094e-14 68 210 68 209 55 210 46 205 34 205 25 201 22 201 10 208 4 204 0 191 10 180 5 172 22 154 25 146 28 136 20 113 18 112 28 93 28 86 21 78 21 63 25 76 27 51 54 29 63 1 59"></polygon>
+                <text id="Eastern-Mediterranea" font-family="Inconsolata-Regular, Inconsolata" font-size="12" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="87" y="47">Eastern</tspan>
+                    <tspan x="87" y="59">Mediterranean</tspan>
+                </text>
+            </g>
+            <g id="Group-56" transform="translate(814.000000, 677.000000)">
+                <polygon id="syr" stroke="#979797" fill-rule="nonzero" points="7 46 0 52 0 64 4 67 4 76 9 88 8 97 9 110 126 110 126 2 112 2 100 0 93 4 84 1 53 1 22 15 13 22 3 42"></polygon>
+                <text id="Syria" font-family="Inconsolata-Regular, Inconsolata" font-size="12" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="50" y="70">Syria</tspan>
+                </text>
+            </g>
+            <g id="Group-57" transform="translate(855.000000, 601.000000)">
+                <polygon id="arm" stroke="#979797" fill-rule="nonzero" points="85 78 85 24 68 25 61 23 56 27 45 21 44 16 38 15 23 0 21 4 16 7 13 13 4 19 5 43 2 49 1.42108547e-14 54 2 59 10 66 12 77 42.5 77 52 80 59 76 71 78"></polygon>
+                <text id="Armenia" font-family="Inconsolata-Regular, Inconsolata" font-size="12" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="16" y="48">Armenia</tspan>
+                </text>
+            </g>
+            <g id="Group-58" transform="translate(652.000000, 648.000000)">
+                <polygon id="smy" stroke="#979797" fill-rule="nonzero" points="206 -2.13162821e-14 195 3 188 1.5 168 4 152 18 135 31 121 32 114 30 102 31 95 37 78 42 58 45 46 43 38 46 26 44 20 41 6 42 7 44 10 60 4 59 0 55 0 64 10 68 21 84 24 96 39 92 47 92 54 99 73 99 74 89 97 91 107 99 115 96 133 93 141 76 152 81 165 71 175 51 184 44 215 30 213 19 205 12 203 7"></polygon>
+                <text id="Smyrna" font-family="Inconsolata-Regular, Inconsolata" font-size="12" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="83" y="68">Smyrna</tspan>
+                </text>
+            </g>
+            <g id="Group-59" transform="translate(724.000000, 613.000000)">
+                <polygon id="ank" stroke="#979797" fill-rule="nonzero" points="0 28 0 36 8 53 6 62 6 77 23 72 30 66 42 65 49 67 63 66 80 53 96 39 116 36 123 38 133 35 136 31 135 7 121 7 109 12 85 9 72 5 54 -7.10542736e-15 31 6 15 12 10 22"></polygon>
+                <text id="Ankara" font-family="Inconsolata-Regular, Inconsolata" font-size="12" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="39" y="32">Ankara</tspan>
+                </text>
+            </g>
+            <g id="Group-60" transform="translate(666.000000, 517.000000)">
+                <polygon id="bla" stroke="#979797" fill-rule="nonzero" points="212 84 215 79 213.5 72 207 62 195 55 182 54 176 46 159 37 139 34 126 28 119 30 108 36 97 39 89 50 80 51 80 38 73 35 65 34 66 28 75 21 75 15 68 17 58 18 51 11 57 7 52 0 46 7 40 8 35 10 32 19 29 30 23 33 23 38 26 42 22 50 17 48 13 51 11 79 5 85 4 97 -2.84217094e-14 102 8 114 27 128 50 128 58 124 68 118 73 108 89 102 112 96 143 105 167 108 179 103 193 103 202 97 205 91 210 88"></polygon>
+                <text id="Black-Sea" font-family="Inconsolata-Regular, Inconsolata" font-size="12" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="62" y="77">Black Sea</tspan>
+                </text>
+            </g>
+            <g id="Group-61" transform="translate(667.000000, 381.000000)">
+                <polygon id="sev" stroke="#979797" fill-rule="nonzero" points="273 244 273 101 266 101 254 89 222 75 207 67 206 56 201 46 194 45 180 32 173 14 159 14 150 18 137 16 124 7 113 -1.42108547e-14 105 3 99 13 98 24 66 27 67 34 68 43 60 61 59 90 46 99 30 111 21 120 19 129 8.52651283e-14 145 2 152 8.52651283e-14 160 4 173 12 178 22 174 22 169 28 166 34 146 39 144 45 143 51 136 56 143 50 147 57 154 67 153 74 151 74 157 65 164 64 170 72 171 79 174 79 187 88 186 96 175 107 172 118 166 125 164 138 170 158 173 175 182 181 190 194 191 206 198 212 207 214 215 211 220 226 235 232 236 233 241 244 247 249 243 256 245"></polygon>
+                <text id="Sevastapol" font-family="Inconsolata-Regular, Inconsolata" font-size="12" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="106" y="119">Sevastapol</tspan>
+                </text>
+            </g>
+            <g id="Group-62" transform="translate(585.000000, 500.000000)">
+                <polygon id="rum" stroke="#979797" fill-rule="nonzero" points="82 26 67 6 56 -2.13162821e-14 53 4 52 16 43 22 43 31 51 35 56 41 59 45 54 60 40 61 30 61 14 62 7 66 3 70 -7.10542736e-15 77 1 84 6 90 11 97 14 95 18 93 26 99 50 99 65 89 85 92 92 96 94 68 98 65 103 67 107 59 104 55 94 59 86 54 82 41 84 33"></polygon>
+                <text id="Rumania" font-family="Inconsolata-Regular, Inconsolata" font-size="12" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="32" y="79">Rumania</tspan>
+                </text>
+            </g>
+            <g id="Group-63" transform="translate(504.000000, 483.000000)">
+                <polygon id="bud" stroke="#979797" fill-rule="nonzero" points="124 39 108 25 103 18 97 16 89 6 75 5 68 -2.13162821e-14 56 2 50 -2.13162821e-14 40 3 43 6 42 11 36 10 31 16 25 21 23 30 16 32 0 48 1 51 2 62 3 65 13 73 19 73 23 78 25 85 32 89 36 93 50 93 66 94 74 98 81 94 84 87 88 83 95 79 111 78 120 78 135 77 140 62 132 52 124 48"></polygon>
+                <text id="Budapest" font-family="Inconsolata-Regular, Inconsolata" font-size="12" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="42" y="58">Budapest</tspan>
+                </text>
+            </g>
+            <g id="Group-64" transform="translate(523.000000, 452.000000)">
+                <polygon id="gal" stroke="#979797" fill-rule="nonzero" points="16 11 8 18 1 18 0 30 13 29 21 34 31 31 37 33 49 31 56 36 70 37 78 47 84 49 89 56 105 70 114 64 115 52 118 48 107 20 98 17 88 8 84 6 81 1 74 7 64 10 50 7.10542736e-15 46 2 39 9 33 11 28 15 24 12 22 9"></polygon>
+                <text id="Galicia" font-family="Inconsolata-Regular, Inconsolata" font-size="12" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="48" y="27">Galicia</tspan>
+                </text>
+            </g>
+            <g id="Group-65" transform="translate(611.000000, 405.000000)">
+                <polygon id="ukr" stroke="#979797" fill-rule="nonzero" points="0 55 1 43 4 37 4 27 25 18 56 12 66 8 80 6 94 2 111 0.892715652 114 4 122 3 124 19 116 37 115 66 102 75 86 87 77 96 75 105 56 121 41 101 30 95 19 67 10 64"></polygon>
+                <text id="Ukraine" font-family="Inconsolata-Regular, Inconsolata" font-size="12" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="38" y="57">Ukraine</tspan>
+                </text>
+            </g>
+            <g id="Group-66" transform="translate(518.000000, 386.000000)">
+                <polygon id="war" stroke="#979797" fill-rule="nonzero" points="0 38 1 44 5 54 7 63 21 77 27 75 29 78 33 81 38 77 44 75 51 68 55 66 69 76 79 73 86 67 89 72 93 74 94 62 97 56 97 46 94 40 94 32 87 18 73 10 65 7.10542736e-15 61 4 52 8 44 10 37 14 25 13 16 16 11 22 8 29"></polygon>
+                <text id="Warsaw" font-family="Inconsolata-Regular, Inconsolata" font-size="12" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="34" y="48">Warsaw</tspan>
+                </text>
+            </g>
+            <g id="Group-67" transform="translate(482.000000, 340.000000)">
+                <polygon id="pru" stroke="#979797" fill-rule="nonzero" points="101 46 97 50 88 54 80 56 73 60 61 59 52 62 47 68 44 75 36 84 28 81 16 81 7 80 4 78 4 72 2 66 -7.10542736e-15 54 -7.10542736e-15 51 4 50 3 43 7 37 38 27 53 28 54 34 62 34 62 37 69 36 69 26 65 26 78 12 83 14 82 8 77 -2.13162821e-14 82 1 87 9 93 19 103 23 103 35"></polygon>
+                <text id="Prussia" font-family="Inconsolata-Regular, Inconsolata" font-size="12" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="23" y="53">Prussia</tspan>
+                </text>
+            </g>
+            <g id="Group-68" transform="translate(605.000000, 206.000000)">
+                <polygon id="mos" stroke="#979797" fill-rule="nonzero" points="-2.84217094e-14 198 7 212 7 220 10 226 31 217 62 211 72 207 86 205 100 201 117 199.892716 120 203 160 199 161 188 167 178 175 175 186 182 199 191 212 193 221 189 235 189 245 175 251 170 253 160 251 146 254 129 263 109 272 106 275 93 273 84 276 70 284 53 285 41 280 22 274 11 273 -5.68434189e-14 264 1 244 6 225 15 208 15 201 20 187 22 162 41 135 40 118 53 112 76 109 84 101 84 93 80 85 82 77 98 65 107 42 110 34 130 36 138 33 164 34 176 20 179"></polygon>
+                <text id="Moscow" font-family="Inconsolata-Regular, Inconsolata" font-size="12" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="135" y="137">Moscow</tspan>
+                </text>
+            </g>
+            <g id="Group-69" transform="translate(559.000000, 270.000000)">
+                <polygon id="lvn" stroke="#979797" fill-rule="nonzero" points="88 46 80 66 82 74 79 100 80 112 66 115 46 134 32 126 24 116 26 105 26 93 16 89 5 71 -1.42108547e-14 70 2 54 4 44 13 35 22 37 23 44 28 48 37 48 39 33 37 26 41 20 29 18 27 7 28 0 32 0 37 5 53 8 65 9 76 18 84 35 85 43"></polygon>
+                <text id="Livonia" font-family="Inconsolata-Regular, Inconsolata" font-size="12" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="23" y="74">Livonia</tspan>
+                </text>
+            </g>
+            <g id="Group-70" transform="translate(591.000000, 40.000000)">
+                <polygon id="stp" stroke="#979797" fill-rule="nonzero" points="-2.84217094e-14 230 5 235 21 238 33 239 44 248 52 265 53 273 56 276 79 273 91 264 99 248 107 246 115 250 123 250 132 219 149 206 176 207 201 188 215 186 222 181 239 181 258 172 278 167 287 166 286 154 274 134 274 119 256 97 255 66 227 47 217 45 206 41 192 38 181 24 169 26 158 24 158 14 165 13 153 5.68434189e-14 137 3 143.5 11 147 30 157 41 151 48 141 53 129 72 141 88 156 95 149 99 103 87 104 98 116 109 112 115 90 106 83 84 82 77 69 70 57 62 62 57 76 65 100 66 115 68 127 54 131 38 121 26 74 10 61 14 56 12 49 3 40 2 39 8 38 14 27 28 24 39 34 49 35 71 47 109 49 120 61 140 59 177 51 183 43 200 49 201 56 206 56 210 49 216 42 216 40 224 28 222 14 219"></polygon>
+                <text id="St.-Petersburg" font-family="Inconsolata-Regular, Inconsolata" font-size="12" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="102" y="161">St. Petersburg</tspan>
+                </text>
+                <text id="NC" font-family="Inconsolata-Regular, Inconsolata" font-size="12" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="145" y="63">NC</tspan>
+                </text>
+                <text id="SC" font-family="Inconsolata-Regular, Inconsolata" font-size="12" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="59" y="212">SC</tspan>
+                </text>
+            </g>
+            <g id="Group-71" transform="translate(580.000000, 0.000000)">
+                <polygon id="bar" stroke="#979797" fill-rule="nonzero" points="3 0 0 28 19 27 23 22 37 30 46 33 44 42 37 48 50 48 51 42 60 43 67 52 72 54 85 50 132 66 142 78 138 94 126 108 111 106 87 105 73 97 68 102 80 110 93 117 94 124 101 146 123 155 127 149 115 138 114 127 160 139 167 135 152 128 140 112 152 93 162 88 168 81 158 70 154 51 148 43 164 40 176 53 169 54 169 64 180 66 192 64 191 51 191 43 199 34 203 24 209 11 210 0"></polygon>
+                <text id="Barents-Sea" font-family="Inconsolata-Regular, Inconsolata" font-size="12" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="59" y="21">Barents Sea</tspan>
+                </text>
+            </g>
+            <g id="Group-72" transform="translate(554.000000, 47.000000)">
+                <polygon id="fin" stroke="#979797" fill-rule="nonzero" points="61 32 64 21 58 3 50 0 40 3 38 19 20 22 6 12 2 14 0 21 3 25 16 36 21 40 24 50 25 67 27 85 39 94 38 106 18 130 5 151 9 177 9 196 21 202 27 208 32 211 41 205 51 201 59 197 70 196 80 193 88 176 96 170 98 133 86 113 84 102 72 64 71 42"></polygon>
+                <text id="Finland" font-family="Inconsolata-Regular, Inconsolata" font-size="12" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="30" y="150">Finland</tspan>
+                </text>
+            </g>
+            <g id="Group-73" transform="translate(513.000000, 131.000000)">
+                <polygon id="bot" stroke="#979797" fill-rule="nonzero" points="68 3.54993812e-14 59 2.84217094e-14 49 12 44 35 34 50 20 61 10 69 11 86 6 95 8 101 7 106 15 110 20 119 22 124 18 135 14 147 2 153 0 163 50 182 59 173 68 175 69 182 74 186 83 186 85 171 83 164 87 158 75 156 73 145 74 138 78 138 92 127 118 132 120 124 127 124 134 118 134 114 127 109 121 108 111 111 100 112 92 116 82 120 73 126 68 123 62 117 50 111 50 92 46 66 59 45 79 21 80 9"></polygon>
+                <text id="Gulf-of-Bothnia" font-family="Inconsolata-Regular, Inconsolata" font-size="12" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="26" y="139">Gulf</tspan>
+                    <tspan x="26" y="151">of</tspan>
+                    <tspan x="26" y="163">Bothnia</tspan>
+                </text>
+            </g>
+            <g id="Group-74" transform="translate(452.000000, 68.000000)">
+                <polygon id="swe" stroke="#979797" fill-rule="nonzero" points="102 2.84217094e-14 97 9 85 11 80 17 72 18 72 28 67 35 67 46 52 64 50 80 43 89 40 98 24 104 24 153 19 161 18 174 12 190 10 207 5 207 1.42108547e-14 205 1.42108547e-14 216 6 217 6 230 13 254 10 263 10 268 13 269 15 274 15 278 13 278 15 283 27 284 30 271 49 269 49 264 56 254 57 244 63 217 75 211 83 188 76 174 68 170 69 165 67 159 72 150 71 133 95 114 105 99 110 76 120 64 129 64 127 46 126 29 123 19 105 4"></polygon>
+                <text id="Sweden" font-family="Inconsolata-Regular, Inconsolata" font-size="12" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="24" y="205">Sweden</tspan>
+                </text>
+            </g>
+            <g id="Group-75" transform="translate(184.000000, 405.000000)">
+                <polygon id="eng" stroke="#979797" fill-rule="nonzero" points="7.10542736e-15 14 14 40 30 48 30 40 28 36 40 34 44 38 48 34 52 38 61 44 70 48 72 38 70 29 68 25 72 23 79 25 79 36 85 36 91 40 100 38 102 32 115 30 122 25 128 13 124 6 107 12 105 8 97 6 89 4 73 6 61 0.892715652 53 6 30 4 27 0 24 0.892715652"></polygon>
+                <text id="English-Channel" font-family="Inconsolata-Regular, Inconsolata" font-size="12" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="16" y="20">English Channel</tspan>
+                </text>
+            </g>
+            <g id="Group-76" transform="translate(350.000000, 333.000000)">
+                <polygon id="hel" stroke="#979797" fill-rule="nonzero" points="1 10 -7.10542736e-15 22 14 66 22 60 22 55 19 54 19 44 34 44 37 50 39 50 39 42 44 41 50 44 50 48 54 48 55 45 61 41 61 32 65 30 62 25 62 17 65 9 58 1 14 0"></polygon>
+                <text id="Helgoland-Bight" font-family="Inconsolata-Regular, Inconsolata" font-size="12" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="6" y="18">Helgoland</tspan>
+                    <tspan x="6" y="30">Bight</tspan>
+                </text>
+            </g>
+            <polyline id="Path" stroke="#979797" fill="transparent" fill-rule="nonzero" points="790 3.47839406e-13 940 0.668421327 940 482"></polyline>
+
+</svg>

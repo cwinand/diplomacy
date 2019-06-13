@@ -81,7 +81,9 @@ class GamesController < ApplicationController
     end
 
     def players_for_new_game
-      users = User.where( username: params[ :invites ] )
+      users = User
+        .all_except( current_user.id )
+        .where( username: params[ :invites ] )
         .or( User.where( email: params[ :invites ] ) )
 
       users.map do |user|
