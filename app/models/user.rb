@@ -7,6 +7,9 @@ class User < ApplicationRecord
   has_many :game_players
   has_many :games, through: :game_players
 
+  validates :username, format: { with: /\A(?:[A-Za-z0-9_-]+)\Z/ }, uniqueness: true
+  validates :email, format: { with: URI::MailTo::EMAIL_REGEXP }
+
   scope :all_except, -> ( user ) { where.not( id: user ) }
 
   def pending_invites
