@@ -12,8 +12,20 @@ class User < ApplicationRecord
 
   scope :all_except, -> ( user ) { where.not( id: user ) }
 
+  def active_games
+    games.active
+  end
+
+  def previous_games
+    games.ended
+  end
+
   def pending_invites
-    game_players.where( 'pending' )
+    game_players.pending_invite
+  end
+
+  def pending_games
+    game_players.pending_start
   end
 
 end

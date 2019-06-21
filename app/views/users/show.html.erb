@@ -4,18 +4,59 @@
 
 <h1>Profile</h1>
 
-<h2>Pending Invites</h2>
-<% @user.pending_invites.each do |p| %>
-  <p>Game Name: <%= p.game.name %></p>
+<div class="current-games">
+  <h2>Current Games</h2>
 
-  <%= form_for @user, url: { action: 'accept_invite', id: @user.id } do %>
-    <input type="hidden" name="invite_id" value="<%= p.id %>">
-    <input type="submit" value="Accept">
+  <h3>Active Games</h3>
+  <% if @user.active_games.count == 0 %>
+    <p>No active games</p>
   <% end %>
 
-  <%= form_for @user, url: { action: 'decline_invite', id: @user.id } do %>
-    <input type="hidden" name="invite_id" value="<%= p.id %>">
-    <input type="submit" value="Decline">
+  <% @user.active_games.each do |game| %>
+    <p>Game Name: <%= game.name %></p>
   <% end %>
 
-<% end %>
+  <h3>Pending Games</h3>
+  <% if @user.pending_games.count == 0 %>
+    <p>No pending games</p>
+  <% end %>
+
+  <% @user.pending_games.each do |invite| %>
+    <p>Game Name: <%= invite.game.name %></p>
+  <% end %>
+</div>
+
+<div class="previous-games">
+  <h2>Previous Games</h2>
+
+  <% if @user.previous_games.count == 0 %>
+    <p>No pending invites</p>
+  <% end %>
+
+  <% @user.previous_games.each do |game| %>
+    <p>Game Name: <%= game.name %></p>
+  <% end %>
+</div>
+
+<div class="invites">
+  <h2>Pending Invites</h2>
+
+  <% if @user.pending_invites.count == 0 %>
+    <p>No pending invites</p>
+  <% end %>
+
+  <% @user.pending_invites.each do |invite| %>
+    <p>Game Name: <%= invite.game.name %></p>
+
+    <%= form_for @user, url: { action: 'accept_invite', id: @user.id } do %>
+      <input type="hidden" name="invite_id" value="<%= invite.id %>">
+      <input type="submit" value="Accept">
+    <% end %>
+
+    <%= form_for @user, url: { action: 'decline_invite', id: @user.id } do %>
+      <input type="hidden" name="invite_id" value="<%= invite.id %>">
+      <input type="submit" value="Decline">
+    <% end %>
+
+  <% end %>
+</div>
