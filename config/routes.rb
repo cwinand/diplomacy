@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
-  resources :games
   devise_for :users, controllers: { confirmations: 'confirmations' }, sign_out_via: :get
+
+  resources :games
+  get '/games/:id/settings', to: 'game#edit'
 
   get '/profile', to: 'users#show'
   get '/users/:id', to: 'users#show'

@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  game: one
+  turn_length: 1
+  assignment_strategy: MyString
+  allow_illegal_moves: false
+
+two:
+  game: two
+  turn_length: 1
+  assignment_strategy: MyString
+  allow_illegal_moves: false

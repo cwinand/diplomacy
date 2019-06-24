@@ -1,6 +1,8 @@
 <h1>New Game</h1>
 
 <%= form_for @game, url: { action: 'create' } do |f| %>
+  <%= render "devise/shared/error_messages", resource: @game %>
+
   <%= label_tag :name, 'Game Name' %>
   <%= f.text_field :name %>
 
@@ -15,6 +17,46 @@
       </div>
     <% end %>
 
+  </fieldset>
+
+  <fieldset>
+    <legend>Settings</legend>
+
+    <%= f.fields_for :game_setting do |setting| %>
+
+    <fieldset>
+      <legend>Turn Length</legend>
+      <%= setting.radio_button :turn_length, '4' %>
+      <%= setting.label :turn_length_4, '4 Hours' %>
+
+      <%= setting.radio_button :turn_length, '8' %>
+      <%= setting.label :turn_length_8, '8 Hours' %>
+
+      <%= setting.radio_button :turn_length, '12' %>
+      <%= setting.label :turn_length_12, '12 Hours' %>
+
+      <%= setting.radio_button :turn_length, '24' %>
+      <%= setting.label :turn_length_24, '24 Hours' %>
+    </fieldset>
+
+    <%= setting.check_box :weekend_skip %>
+    <%= setting.label :weekend_skip, 'Skip weekend turns?' %>
+
+    <fieldset>
+      <legend>How to assign countries?</legend>
+      <%= setting.radio_button :assignment_strategy, 'random' %>
+      <%= setting.label :assignment_strategy_random, 'Random' %>
+
+      <%= setting.radio_button :assignment_strategy, 'priority' %>
+      <%= setting.label :assignment_strategy_priority, 'Priority' %>
+
+      <%= setting.radio_button :assignment_strategy, 'first_come' %>
+      <%= setting.label :assignment_strategy_first_come, 'First come, first served' %>
+    </fieldset>
+
+      <%= setting.check_box :allow_illegal_moves %>
+      <%= setting.label :allow_illegal_moves, 'Allow Illegal Moves?' %>
+    <% end %>
   </fieldset>
 
   <%= f.submit 'Continue' %>

@@ -13,6 +13,7 @@ class GamesController < ApplicationController
   # GET /games/new
   def new
     @game = Game.new
+    @game.build_game_setting
   end
 
   # GET /games/1/edit
@@ -23,14 +24,15 @@ class GamesController < ApplicationController
   def create
     @game = Game.new(game_params)
     @game.user = current_user
-    @game.save
 
-    @game.game_provinces.create( provinces_for_new_game )
-    @game.game_players.create( players_for_new_game )
-    @game.game_players.create( user_id: current_user.id, game_id: @game.id, pending: false, confirmed: true )
+    if @game.save
+      @game.game_provinces.create( provinces_for_new_game )
+      @game.game_players.create( players_for_new_game )
+      @game.game_players.create( user_id: current_user.id, game_id: @game.id, pending: false, confirmed: true )
+    end
 
     respond_to do |format|
-      if @game.id
+      if @game.save
         @provinces = Province.all
         format.html { redirect_to @game, notice: 'Game was successfully created.' }
         format.json { render :show, status: :created, location: @game }
@@ -71,7 +73,14 @@ class GamesController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def game_params
-      params.require(:game).permit(:name, :user_id, :started_at, :ended_at, :game_players => [])
+      params.require(:game).permit(
+        :name,
+        :user_id,
+        :started_at,
+        :ended_at,
+        :game_players => [],
+        :game_setting_attributes => [ :turn_length, :weekend_skip, :assignment_strategy, :allow_illegal_moves ]
+      )
     end
 
     def provinces_for_new_game
