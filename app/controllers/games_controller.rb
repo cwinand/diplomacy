@@ -25,15 +25,11 @@ class GamesController < ApplicationController
     @game = Game.new(game_params)
     @game.user = current_user
 
-    if @game.save
-      @game.game_provinces.create( provinces_for_new_game )
-      @game.game_players.create( players_for_new_game )
-      @game.game_players.create( user_id: current_user.id, game_id: @game.id, pending: false, confirmed: true )
-    end
+    @game.game_players.build( players_for_new_game )
+    @game.game_players.build( user_id: current_user.id, pending: false, confirmed: true )
 
     respond_to do |format|
       if @game.save
-        @provinces = Province.all
         format.html { redirect_to @game, notice: 'Game was successfully created.' }
         format.json { render :show, status: :created, location: @game }
       else
@@ -83,12 +79,6 @@ class GamesController < ApplicationController
       )
     end
 
-    def provinces_for_new_game
-      Province.all.map do |province|
-        { province_code: province.province_code, game_id: @game.id, owner: province.home_of }
-      end
-    end
-
     def players_for_new_game
       users = User
         .all_except( current_user.id )
@@ -96,7 +86,7 @@ class GamesController < ApplicationController
         .or( User.where( email: params[ :invites ] ) )
 
       users.map do |user|
-        { game_id: @game.id, pending: true, user_id: user.id  }
+        { pending: true, user_id: user.id  }
       end
     end
 end

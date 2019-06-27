@@ -3,6 +3,7 @@
     <%= link_to 'Create New Game', new_game_path %>
     <%= link_to 'Profile', '/profile' %>
     <%= link_to 'Log Out', '/users/sign_out' %>
+    <span><%= current_user.username %></span>
   <% else %>
     <%= link_to 'Log In', '/users/sign_in' %>
     <%= link_to 'Sign Up', '/users/sign_up' %>

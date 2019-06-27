@@ -10,6 +10,10 @@ class Game < ApplicationRecord
 
   validates :name, presence: true
 
+  after_create do
+    self.game_provinces.create( Province.new_game_provinces )
+  end
+
   scope :pending, -> { where( started_at: nil ).where( ended_at: nil ) }
   scope :active, -> { where.not( started_at: nil ).where( ended_at: nil ) }
   scope :ended, -> { where.not( started_at: nil ).where.not( ended_at: nil ) }
