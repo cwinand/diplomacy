@@ -19,6 +19,45 @@
 </p>
 
 <p>
+  <strong>Invites</strong>
+  <table>
+    <thead>
+      <tr>
+        <th>Username</th>
+        <th>Invite Pending</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% @game.game_players.each do |player| %>
+        <tr>
+          <td><%= player.user.username %></td>
+          <td><%= player.pending %></td>
+
+          <% if player.user.id == current_user.id && player.pending %>
+            <td>
+              <%= form_for current_user,
+                  url: { controller: 'users', action: 'accept_invite', id: current_user.id, method: 'patch' } do %>
+                <input type="hidden" name="invite_id" value="<%= player.id %>">
+                <input type="submit" value="Accept">
+              <% end %>
+            </td>
+
+            <td>
+              <%= form_for current_user,
+                  url: { controller: 'users', action: 'decline_invite', id: current_user.id, method: 'patch' } do %>
+                <input type="hidden" name="invite_id" value="<%= player.id %>">
+                <input type="submit" value="Decline">
+              <% end %>
+            </td>
+          <% end %>
+
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
+</p>
+
+<p>
   <strong>Provinces</strong>
   <table>
     <thead>
@@ -34,26 +73,6 @@
           <td><%= p.province_code %></td>
           <td><%= p.province.name %></td>
           <td><%= p.owner %></td>
-        </tr>
-      <% end %>
-    </tbody>
-  </table>
-</p>
-
-<p>
-  <strong>Invites</strong>
-  <table>
-    <thead>
-      <tr>
-        <th>Username</th>
-        <th>Invite Pending</th>
-      </tr>
-    </thead>
-    <tbody>
-      <% @game.game_players.each do |player| %>
-        <tr>
-          <td><%= player.user.username %></td>
-          <td><%= player.pending %></td>
         </tr>
       <% end %>
     </tbody>
