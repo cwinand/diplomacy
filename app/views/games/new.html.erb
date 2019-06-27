@@ -42,18 +42,6 @@
     <%= setting.check_box :weekend_skip %>
     <%= setting.label :weekend_skip, 'Skip weekend turns?' %>
 
-    <fieldset>
-      <legend>How to assign countries?</legend>
-      <%= setting.radio_button :assignment_strategy, 'random' %>
-      <%= setting.label :assignment_strategy_random, 'Random' %>
-
-      <%= setting.radio_button :assignment_strategy, 'priority' %>
-      <%= setting.label :assignment_strategy_priority, 'Priority' %>
-
-      <%= setting.radio_button :assignment_strategy, 'first_come' %>
-      <%= setting.label :assignment_strategy_first_come, 'First come, first served' %>
-    </fieldset>
-
       <%= setting.check_box :allow_illegal_moves %>
       <%= setting.label :allow_illegal_moves, 'Allow Illegal Moves?' %>
     <% end %>

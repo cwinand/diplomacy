@@ -75,7 +75,7 @@ class GamesController < ApplicationController
         :started_at,
         :ended_at,
         :game_players => [],
-        :game_setting_attributes => [ :turn_length, :weekend_skip, :assignment_strategy, :allow_illegal_moves ]
+        :game_setting_attributes => [ :turn_length, :weekend_skip, :allow_illegal_moves ]
       )
     end
 

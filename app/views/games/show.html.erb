@@ -9,16 +9,6 @@
 </p>
 
 <p>
-  <strong>Started at:</strong>
-  <%= @game.started_at %>
-</p>
-
-<p>
-  <strong>Ended at:</strong>
-  <%= @game.ended_at %>
-</p>
-
-<p>
   <strong>Invites</strong>
   <table>
     <thead>
@@ -56,29 +46,6 @@
     </tbody>
   </table>
 </p>
-
-<p>
-  <strong>Provinces</strong>
-  <table>
-    <thead>
-      <tr>
-        <th>Province Code</th>
-        <th>Province Name</th>
-        <th>Owner</th>
-      </tr>
-    </thead>
-    <tbody>
-      <% @game.game_provinces.each do |p| %>
-        <tr>
-          <td><%= p.province_code %></td>
-          <td><%= p.province.name %></td>
-          <td><%= p.owner %></td>
-        </tr>
-      <% end %>
-    </tbody>
-  </table>
-</p>
-
 
 <%= link_to 'Edit', edit_game_path(@game) %> |
 <%= link_to 'Back', games_path %>
