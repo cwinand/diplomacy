@@ -1,5 +1,5 @@
 class GamesController < ApplicationController
-  before_action :set_game, only: [:show, :edit, :update, :destroy]
+  before_action :set_game, only: [:show, :edit, :update, :create_invites, :destroy]
 
   # GET /games
   def index
@@ -34,6 +34,20 @@ class GamesController < ApplicationController
         format.json { render :show, status: :created, location: @game }
       else
         format.html { render :new }
+        format.json { render json: @game.errors, status: :unprocessable_entity }
+      end
+    end
+  end
+
+  def create_invites
+    @game.game_players.build( players_for_new_game )
+
+    respond_to do |format|
+      if @game.save
+        format.html { redirect_to @game, notice: 'Players sucessfully invited' }
+        format.json { render :show, status: :created, location: @game }
+      else
+        format.html { redirect_to @game, notice: 'Unable to invite players' }
         format.json { render json: @game.errors, status: :unprocessable_entity }
       end
     end

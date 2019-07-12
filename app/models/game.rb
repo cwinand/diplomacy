@@ -17,4 +17,8 @@ class Game < ApplicationRecord
   scope :pending, -> { where( started_at: nil ).where( ended_at: nil ) }
   scope :active, -> { where.not( started_at: nil ).where( ended_at: nil ) }
   scope :ended, -> { where.not( started_at: nil ).where.not( ended_at: nil ) }
+
+  def remaining_slots
+    7 - game_players.invited_or_confirmed.count
+  end
 end

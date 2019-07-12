@@ -8,20 +8,21 @@
   <%= @game.user.username %>
 </p>
 
-<p>
+<div>
   <strong>Invites</strong>
   <table>
     <thead>
       <tr>
         <th>Username</th>
-        <th>Invite Pending</th>
+        <th>Invite Status</th>
       </tr>
     </thead>
     <tbody>
+
       <% @game.game_players.each do |player| %>
         <tr>
           <td><%= player.user.username %></td>
-          <td><%= player.pending %></td>
+          <td><%= player.invite_status.capitalize %></td>
 
           <% if player.user.id == current_user.id && player.pending %>
             <td>
@@ -40,12 +41,25 @@
               <% end %>
             </td>
           <% end %>
-
         </tr>
       <% end %>
+      <tr>
+        <td>Remaining slots: <%= @game.remaining_slots %></td>
+      </tr>
     </tbody>
   </table>
-</p>
+
+  <% if @game.remaining_slots > 0 %>
+    <%= form_tag( controller: 'games', action: 'create_invites', method: 'post' ) %>
+      <% (1..@game.remaining_slots).each do |invite_count| %>
+        <div class="form-control">
+          <label for="invite_<%= invite_count %>">Invite another player</label>
+          <input id="invite_<%= invite_count %>" name="invites[]" type="text" />
+        </div>
+      <% end %>
+      <%= submit_tag 'Send invites' %>
+  <% end %>
+</div>
 
 <%= link_to 'Edit', edit_game_path(@game) %> |
 <%= link_to 'Back', games_path %>
