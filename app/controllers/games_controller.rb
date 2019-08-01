@@ -56,7 +56,7 @@ class GamesController < ApplicationController
   # PATCH/PUT /games/1
   def update
     respond_to do |format|
-      if @game.update(game_params)
+      if @game.update(game_params_no_settings)
         format.html { redirect_to @game, notice: 'Game was successfully updated.' }
         format.json { render :show, status: :ok, location: @game }
       else
@@ -90,6 +90,16 @@ class GamesController < ApplicationController
         :ended_at,
         :game_players => [],
         :game_setting_attributes => [ :turn_length, :weekend_skip, :allow_illegal_moves ]
+      )
+    end
+
+    def game_params_no_settings
+      params.require(:game).permit(
+        :name,
+        :user_id,
+        :started_at,
+        :ended_at,
+        :game_players => []
       )
     end
 
