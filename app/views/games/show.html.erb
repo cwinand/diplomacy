@@ -9,6 +9,13 @@
 </p>
 
 <div>
+  <strong>Game Settings:</strong>
+  <p>Turn Length: <%= @game.game_setting.turn_length %> hrs</p>
+  <p>Skip Weekend Turns: <%= @game.game_setting.weekend_skip %></p>
+  <p>Allow Illegal Moves: <%= @game.game_setting.allow_illegal_moves %></p>
+</div>
+
+<div>
   <strong>Invites</strong>
   <table>
     <thead>
