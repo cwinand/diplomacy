@@ -13,7 +13,7 @@ class GamesController < ApplicationController
   # GET /games/new
   def new
     @game = Game.new
-    @game.build_game_setting
+    @game.build_game_setting({ allow_illegal_moves: true, turn_length: 24, weekend_skip: true })
   end
 
   # GET /games/1/edit
