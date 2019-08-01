@@ -43,13 +43,10 @@
           <% end %>
         </tr>
       <% end %>
-      <tr>
-        <td>Remaining slots: <%= @game.remaining_slots %></td>
-      </tr>
     </tbody>
   </table>
 
-  <% if @game.remaining_slots > 0 %>
+  <% if @game.user == current_user && @game.remaining_slots > 0 %>
     <%= form_tag( controller: 'games', action: 'create_invites', method: 'post' ) %>
       <% (1..@game.remaining_slots).each do |invite_count| %>
         <div class="form-control">
