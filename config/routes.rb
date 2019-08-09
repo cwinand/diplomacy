@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   resources :games
   get '/games/:id/settings', to: 'games#edit'
   post '/games/:id/invites', to: 'games#create_invites'
+  get '/games/:id/start', to: 'games#start', as: 'start_game'
 
   get '/profile', to: 'users#show'
   get '/users/:id', to: 'users#show'

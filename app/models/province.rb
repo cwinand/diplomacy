@@ -7,4 +7,8 @@ class Province < ApplicationRecord
       { province_code: province.province_code, owner: province.home_of }
     end
   end
+
+  def readonly?
+    true
+  end
 end

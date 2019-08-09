@@ -1,0 +1,35 @@
+<p>Current turn: <%= @game.turns.last.season %> <%= @game.turns.last.year %></p>
+
+<h2>Current players:</h2>
+<div>
+  <ul>
+    <% @game.game_countries.each do |country| %>
+      <li><%= country_user(country) %>: <%= Country.find( country.country_code ).name %></li>
+    <% end %>
+  </ul>
+</div>
+
+<h2>Provinces:</h2>
+<div style="display: flex;">
+
+  <% @game.game_countries.each do |country| %>
+    <ul style="display: flex; flex-direction: column;">
+    <h3><%= Country.find( country.country_code ).name %></h3>
+      <% @game.game_provinces.where( owner: country.country_code ).each do |province| %>
+        <li><%= Province.find( province.province_code ).name %>
+          <% if Province.find( province.province_code ).is_sc %>&#11089;<% end %>
+        </li>
+      <% end %>
+    </ul>
+  <% end %>
+
+  <ul style="display: flex; flex-direction: column;">
+  <h3>Unowned</h3>
+    <% @game.game_provinces.where( owner: nil ).each do |province| %>
+    <li><%= Province.find( province.province_code ).name %>
+      <% if Province.find( province.province_code ).is_sc %>&#11089;<% end %>
+    </li>
+    <% end %>
+  </ul>
+
+</div>

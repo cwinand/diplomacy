@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_06_24_165824) do
+ActiveRecord::Schema.define(version: 2019_08_09_154026) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -21,6 +21,16 @@ ActiveRecord::Schema.define(version: 2019_06_24_165824) do
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.index ["country_code"], name: "index_countries_on_country_code", unique: true
+  end
+
+  create_table "game_countries", force: :cascade do |t|
+    t.bigint "game_id", null: false
+    t.string "country_code"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.bigint "game_player_id"
+    t.index ["game_id"], name: "index_game_countries_on_game_id"
+    t.index ["game_player_id"], name: "index_game_countries_on_game_player_id"
   end
 
   create_table "game_players", force: :cascade do |t|
@@ -113,6 +123,8 @@ ActiveRecord::Schema.define(version: 2019_06_24_165824) do
     t.index ["username"], name: "index_users_on_username", unique: true
   end
 
+  add_foreign_key "game_countries", "game_players"
+  add_foreign_key "game_countries", "games"
   add_foreign_key "game_players", "games"
   add_foreign_key "game_players", "users"
   add_foreign_key "game_provinces", "games"

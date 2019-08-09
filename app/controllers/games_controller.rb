@@ -1,5 +1,5 @@
 class GamesController < ApplicationController
-  before_action :set_game, only: [:show, :edit, :update, :create_invites, :destroy]
+  before_action :set_game, only: [:show, :edit, :start, :update, :create_invites, :destroy]
 
   # GET /games
   def index
@@ -18,6 +18,12 @@ class GamesController < ApplicationController
 
   # GET /games/1/edit
   def edit
+  end
+
+  # GET /games/1/start
+  def start
+    @game.start
+    redirect_to @game
   end
 
   # POST /games
