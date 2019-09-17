@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_08_09_154026) do
+ActiveRecord::Schema.define(version: 2019_09_09_180251) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -28,9 +28,9 @@ ActiveRecord::Schema.define(version: 2019_08_09_154026) do
     t.string "country_code"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
-    t.bigint "game_player_id"
+    t.bigint "user_id"
     t.index ["game_id"], name: "index_game_countries_on_game_id"
-    t.index ["game_player_id"], name: "index_game_countries_on_game_player_id"
+    t.index ["user_id"], name: "index_game_countries_on_user_id"
   end
 
   create_table "game_players", force: :cascade do |t|
@@ -74,6 +74,23 @@ ActiveRecord::Schema.define(version: 2019_08_09_154026) do
     t.index ["user_id"], name: "index_games_on_user_id"
   end
 
+  create_table "orders", force: :cascade do |t|
+    t.string "start"
+    t.string "end"
+    t.string "order_type"
+    t.string "end_coast"
+    t.bigint "supported_order_id"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.bigint "turn_id", null: false
+    t.bigint "game_country_id", null: false
+    t.bigint "unit_id"
+    t.index ["game_country_id"], name: "index_orders_on_game_country_id"
+    t.index ["supported_order_id"], name: "index_orders_on_supported_order_id"
+    t.index ["turn_id"], name: "index_orders_on_turn_id"
+    t.index ["unit_id"], name: "index_orders_on_unit_id"
+  end
+
   create_table "province_borders", force: :cascade do |t|
     t.string "province_code"
     t.string "border_province_code"
@@ -105,6 +122,16 @@ ActiveRecord::Schema.define(version: 2019_08_09_154026) do
     t.index ["game_id"], name: "index_turns_on_game_id"
   end
 
+  create_table "units", force: :cascade do |t|
+    t.string "unit_type"
+    t.string "current_province"
+    t.bigint "game_country_id", null: false
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.string "coast"
+    t.index ["game_country_id"], name: "index_units_on_game_country_id"
+  end
+
   create_table "users", force: :cascade do |t|
     t.string "username"
     t.string "email", default: "", null: false
@@ -123,12 +150,14 @@ ActiveRecord::Schema.define(version: 2019_08_09_154026) do
     t.index ["username"], name: "index_users_on_username", unique: true
   end
 
-  add_foreign_key "game_countries", "game_players"
   add_foreign_key "game_countries", "games"
+  add_foreign_key "game_countries", "users"
   add_foreign_key "game_players", "games"
-  add_foreign_key "game_players", "users"
   add_foreign_key "game_provinces", "games"
   add_foreign_key "game_settings", "games"
   add_foreign_key "games", "users"
+  add_foreign_key "orders", "game_countries"
+  add_foreign_key "orders", "orders", column: "supported_order_id"
   add_foreign_key "turns", "games"
+  add_foreign_key "units", "game_countries"
 end

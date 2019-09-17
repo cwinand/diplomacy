@@ -1,5 +1,5 @@
 class GamesController < ApplicationController
-  before_action :set_game, only: [:show, :edit, :start, :update, :create_invites, :destroy]
+  before_action :set_game, only: [:show, :edit, :start, :update, :invites, :destroy]
 
   # GET /games
   def index
@@ -8,6 +8,13 @@ class GamesController < ApplicationController
 
   # GET /games/1
   def show
+    if @game.is_active
+      @current_user_country = @game.game_countries.find do |country|
+        country.user == current_user
+      end
+
+      @user_orders = Order.where(game_country_id: @current_user_country.id, turn_id: @game.turns.last.id).order(:unit_id)
+    end
   end
 
   # GET /games/new
@@ -45,7 +52,7 @@ class GamesController < ApplicationController
     end
   end
 
-  def create_invites
+  def invites
     @game.game_players.build( players_for_new_game )
 
     respond_to do |format|

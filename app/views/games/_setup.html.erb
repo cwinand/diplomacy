@@ -58,7 +58,7 @@
   </table>
 
   <% if @game.user == current_user && @game.remaining_slots > 0 %>
-    <%= form_tag( controller: 'games', action: 'create_invites', method: 'post' ) %>
+    <%= form_tag( controller: 'games', action: 'invites', method: 'post' ) %>
       <% (1..@game.remaining_slots).each do |invite_count| %>
         <div class="form-control">
           <label for="invite_<%= invite_count %>">Invite another player</label>

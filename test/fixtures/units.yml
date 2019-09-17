@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  unit_type: MyString
+  current_province: MyString
+  game_country: one
+
+two:
+  unit_type: MyString
+  current_province: MyString
+  game_country: two

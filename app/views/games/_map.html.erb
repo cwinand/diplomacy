@@ -4,10 +4,16 @@
 <div>
   <ul>
     <% @game.game_countries.each do |country| %>
-      <li><%= country_user(country) %>: <%= Country.find( country.country_code ).name %></li>
+      <li><%= country.user_display %>: <%= Country.find( country.country_code ).name %></li>
     <% end %>
   </ul>
 </div>
+
+<% if @current_user_country %>
+  <% @user_orders.each do |order| %>
+    <%= render 'orders/form', order: order %>
+  <% end %>
+<% end %>
 
 <h2>Provinces:</h2>
 <div style="display: flex;">

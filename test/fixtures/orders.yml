@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  unit_type: MyString
+  start: MyString
+  end: MyString
+  order_type: MyString
+  end_coast: MyString
+  supported_order: 
+
+two:
+  unit_type: MyString
+  start: MyString
+  end: MyString
+  order_type: MyString
+  end_coast: MyString
+  supported_order: 

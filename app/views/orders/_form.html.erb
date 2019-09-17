@@ -1,0 +1,45 @@
+<%= form_with(model: order, method: 'put', local: true, id: order.id) do |form| %>
+  <% if order.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(order.errors.count, "error") %> prohibited this order from being saved:</h2>
+
+      <ul>
+        <% order.errors.full_messages.each do |message| %>
+          <li><%= message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <p>Order ID: <%= order.id %></p>
+
+  <%= label_tag :unit_id, order.unit.current_province %>
+  <%= form.hidden_field :unit_id, value: order.unit_id, id: "order_unit_id_#{order.id}" %>
+
+  <fieldset>
+    <legend>Order Type</legend>
+
+    <%= form.label :order_type_hold, "Hold", value: order.id %>
+    <%= form.radio_button :order_type, "hold", id: "order_order_type_hold_#{order.id}" %>
+
+    <%= form.label :order_type_move, "Move", value: order.id %>
+    <%= form.radio_button :order_type, "move", id: "order_order_type_move_#{order.id}" %>
+
+    <%= form.label :order_type_support, "Support", value: order.id %>
+    <%= form.radio_button :order_type, "support", id: "order_order_type_support_#{order.id}" %>
+
+    <%= form.label :order_type_convoy, "Convoy", value: order.id %>
+    <%= form.radio_button :order_type, "convoy", id: "order_order_type_convoy_#{order.id}" %>
+
+    <%= form.label :end, "to", value: order.id %>
+    <%= form.text_field :end, id: "order_end_#{order.id}" %>
+
+  </fieldset>
+
+  <%= form.label :supported_order_id, "Supported/convoyed order", value: order.id %>
+  <%= form.text_field :supported_order_id, id: "order_supported_order_id_#{order.id}" %>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

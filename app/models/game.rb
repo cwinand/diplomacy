@@ -1,12 +1,12 @@
 class Game < ApplicationRecord
   belongs_to :user
-  has_many :game_provinces
+  has_many :game_provinces, dependent: :destroy
   has_many :provinces, through: :game_provinces
-  has_many :game_players
-  has_many :game_countries
-  has_many :turns
-  has_many :orders, through: :turns
-  has_one :game_setting
+  has_many :game_players, dependent: :destroy
+  has_many :game_countries, dependent: :destroy
+  has_many :turns, dependent: :destroy
+  has_many :orders, through: :turns, dependent: :destroy
+  has_one :game_setting, dependent: :destroy
   accepts_nested_attributes_for :game_setting
 
   validates :name, presence: true
@@ -28,11 +28,10 @@ class Game < ApplicationRecord
     confirmed_players = self.game_players.confirmed
 
     countries.each_with_index do |country, index|
-      byebug
       player = confirmed_players[ index ]
       game_country = GameCountry.create(
         game_id: self.id,
-        game_player_id: player ? player.id : nil,
+        user_id: player ? player.user_id : nil,
         country_code: country
       )
     end
@@ -41,7 +40,6 @@ class Game < ApplicationRecord
 
     self.started_at = DateTime.now
     self.save
-    byebug
   end
 
   def advance_turn
@@ -56,5 +54,9 @@ class Game < ApplicationRecord
 
   def is_active
     self.started_at != nil && ended_at == nil
+  end
+
+  def active_units
+    Unit.where(game_country_id: self.game_countries.pluck('id'))
   end
 end

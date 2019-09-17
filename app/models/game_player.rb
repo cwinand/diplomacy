@@ -1,7 +1,6 @@
 class GamePlayer < ApplicationRecord
   belongs_to :game
   belongs_to :user
-  has_one :game_country
 
   scope :pending_invite, -> { where( 'pending' ) }
   scope :confirmed, -> { where( 'confirmed' ) }
