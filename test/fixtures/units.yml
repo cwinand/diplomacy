@@ -4,3 +4,13 @@ fr_army_par:
   unit_type: 'a'
   current_province: 'par'
   game_country: game_country_fr
+
+tr_army_con:
+  unit_type: 'a'
+  current_province: 'con'
+  game_country: game_country_tr
+
+tr_fleet_aeg:
+  unit_type: 'f'
+  current_province: 'aeg'
+  game_country: game_country_tr

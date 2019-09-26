@@ -1,6 +1,6 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html %>
 
-valid_move:
+a_move_par_bur:
   start: 'par'
   end: 'bur'
   order_type: 'move'
@@ -10,7 +10,48 @@ valid_move:
   game_country: game_country_fr
   unit: fr_army_par
 
-invalid_move:
+f_move_aeg_bul_sc:
+  start: 'aeg'
+  end: 'bul'
+  order_type: 'move'
+  end_coast: 'sc'
+  supported_order_id: nil
+  turn: first
+  game_country: game_country_tr
+  unit: tr_fleet_aeg
+
+f_move_aeg_con:
+  start: 'aeg'
+  end: 'con'
+  order_type: 'move'
+  end_coast: nil
+  supported_order_id: nil
+  turn: first
+  game_country: game_country_tr
+  unit: tr_fleet_aeg
+
+f_move_aeg_eas:
+  start: 'aeg'
+  end: 'eas'
+  order_type: 'move'
+  end_coast: nil
+  supported_order_id: nil
+  turn: first
+  game_country: game_country_tr
+  unit: tr_fleet_aeg
+
+a_move_con_bul:
+  id: 1
+  start: 'con'
+  end: 'bul'
+  order_type: 'move'
+  end_coast: nil
+  supported_order_id: nil
+  turn: first
+  game_country: game_country_tr
+  unit: tr_army_con
+
+a_move_par_bel:
   start: 'par'
   end: 'bel'
   order_type: 'move'
@@ -19,3 +60,33 @@ invalid_move:
   turn: first
   game_country: game_country_fr
   unit: fr_army_par
+
+f_move_aeg_bul_nil:
+  start: 'aeg'
+  end: 'bul'
+  order_type: 'move'
+  end_coast: nil
+  supported_order_id: nil
+  turn: first
+  game_country: game_country_tr
+  unit: tr_fleet_aeg
+
+f_move_aeg_bul_ec:
+  start: 'aeg'
+  end: 'bul'
+  order_type: 'move'
+  end_coast: 'ec'
+  supported_order_id: nil
+  turn: first
+  game_country: game_country_tr
+  unit: tr_fleet_aeg
+
+f_aeg_support_a_con_bul:
+  start: 'aeg'
+  end: 'aeg'
+  order_type: 'support'
+  end_coast: nil
+  supported_order_id: 1
+  turn: first
+  game_country: game_country_tr
+  unit: tr_fleet_aeg
