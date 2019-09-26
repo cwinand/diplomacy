@@ -1,13 +1,6 @@
-# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+# # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html %>
 
-one:
-  game: one
-  season: MyString
-  year: 1
-  expiration: 2019-06-21 13:06:13
-
-two:
-  game: two
-  season: MyString
-  year: 1
-  expiration: 2019-06-21 13:06:13
+first:
+  season: 'spring'
+  year: '1901'
+  game: game_one

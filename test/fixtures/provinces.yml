@@ -1,19 +1,676 @@
-# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html %>
 
-one:
-  province_code: MyString
-  name: MyString
-  type: 
-  is_sc: false
-  home_of: 
-  coast_1: MyString
-  coast_2: MyString
+adr:
+  province_code: 'adr'
+  name: 'adriatic sea'
+  province_type: 'sea'
+  is_sc: 0
+  home_of: nil
+  coast_1: nil
+  coast_2: nil 
 
-two:
-  province_code: MyString
-  name: MyString
-  type: 
-  is_sc: false
-  home_of: 
-  coast_1: MyString
-  coast_2: MyString
+aeg:
+  province_code: 'aeg'
+  name: 'aegean sea'
+  province_type: 'coast'
+  is_sc: 0
+  home_of: nil
+  coast_1: nil
+  coast_2: nil 
+
+alb:
+  province_code: 'alb'
+  name: 'albania'
+  province_type: 'coast'
+  is_sc: 0
+  home_of: nil
+  coast_1: nil
+  coast_2: nil 
+
+ank:
+  province_code: 'ank'
+  name: 'ankara'
+  province_type: 'coast'
+  is_sc: 1
+  home_of: 'tr'
+  coast_1: nil
+  coast_2: nil 
+
+apu:
+  province_code: 'apu'
+  name: 'apulia'
+  province_type: 'coast'
+  is_sc: 0
+  home_of: nil
+  coast_1: nil
+  coast_2: nil 
+
+arm:
+  province_code: 'arm'
+  name: 'armenia'
+  province_type: 'coast'
+  is_sc: 0
+  home_of: 'tr'
+  coast_1: nil
+  coast_2: nil
+
+bal:
+  province_code: 'bal'
+  name: 'baltic sea'
+  province_type: 'sea'
+  is_sc: 0
+  home_of: nil
+  coast_1: nil
+  coast_2: nil 
+
+bar:
+  province_code: 'bar'
+  name: 'barents sea'
+  province_type: 'sea'
+  is_sc: 0
+  home_of: nil
+  coast_1: nil
+  coast_2: nil 
+
+bel:
+  province_code: 'bel'
+  name: 'belgium'
+  province_type: 'coast'
+  is_sc: 1
+  home_of: nil
+  coast_1: nil
+  coast_2: nil 
+
+ber:
+  province_code: 'ber'
+  name: 'berlin'
+  province_type: 'coast'
+  is_sc: 1
+  home_of: 'de'
+  coast_1: nil
+  coast_2: nil 
+
+bla:
+  province_code: 'bla'
+  name: 'black sea'
+  province_type: 'sea'
+  is_sc: 0
+  home_of: nil
+  coast_1: nil
+  coast_2: nil 
+
+boh:
+  province_code: 'boh'
+  name: 'bohemia'
+  province_type: 'land'
+  is_sc: 0
+  home_of: 'au'
+  coast_1: nil
+  coast_2: nil 
+
+bot:
+  province_code: 'bot'
+  name: 'gulf of bothnia'
+  province_type: 'sea'
+  is_sc: 0
+  home_of: nil
+  coast_1: nil
+  coast_2: nil 
+
+bre:
+  province_code: 'bre'
+  name: 'brest'
+  province_type: 'coast'
+  is_sc: 1
+  home_of: 'fr'
+  coast_1: nil
+  coast_2: nil 
+
+bud:
+  province_code: 'bud'
+  name: 'budapest'
+  province_type: 'land'
+  is_sc: 1
+  home_of: 'au'
+  coast_1: nil
+  coast_2: nil 
+
+bul:
+  province_code: 'bul'
+  name: 'bulgaria'
+  province_type: 'coast'
+  is_sc: 1
+  home_of: nil
+  coast_1: 'sc'
+  coast_2: 'ec' 
+
+bur:
+  province_code: 'bur'
+  name: 'burgundy'
+  province_type: 'land'
+  is_sc: 0
+  home_of: 'fr'
+  coast_1: nil
+  coast_2: nil 
+
+cly:
+  province_code: 'cly'
+  name: 'clyde'
+  province_type: 'coast'
+  is_sc: 0
+  home_of: 'en'
+  coast_1: nil
+  coast_2: nil 
+
+con:
+  province_code: 'con'
+  name: 'constantinople'
+  province_type: 'coast'
+  is_sc: 1
+  home_of: 'tr'
+  coast_1: nil
+  coast_2: nil 
+
+den:
+  province_code: 'den'
+  name: 'denmark'
+  province_type: 'coast'
+  is_sc: 1
+  home_of: nil
+  coast_1: nil
+  coast_2: nil 
+
+eas:
+  province_code: 'eas'
+  name: 'eastern mediterranean'
+  province_type: 'sea'
+  is_sc: 0
+  home_of: nil
+  coast_1: nil
+  coast_2: nil 
+
+edi:
+  province_code: 'edi'
+  name: 'edinburgh'
+  province_type: 'coast'
+  is_sc: 1
+  home_of: 'en'
+  coast_1: nil
+  coast_2: nil 
+
+eng:
+  province_code: 'eng'
+  name: 'english channel'
+  province_type: 'sea'
+  is_sc: 0
+  home_of: nil
+  coast_1: nil
+  coast_2: nil 
+
+fin:
+  province_code: 'fin'
+  name: 'finland'
+  province_type: 'coast'
+  is_sc: 0
+  home_of: nil
+  coast_1: nil
+  coast_2: nil 
+
+gal:
+  province_code: 'gal'
+  name: 'galicia'
+  province_type: 'land'
+  is_sc: 0
+  home_of: 'au'
+  coast_1: nil
+  coast_2: nil 
+
+gas:
+  province_code: 'gas'
+  name: 'gascony'
+  province_type: 'coast'
+  is_sc: 0
+  home_of: 'fr'
+  coast_1: nil
+  coast_2: nil 
+
+gre:
+  province_code: 'gre'
+  name: 'greece'
+  province_type: 'coast'
+  is_sc: 1
+  home_of: nil
+  coast_1: nil
+  coast_2: nil 
+
+hel:
+  province_code: 'hel'
+  name: 'helgoland bight'
+  province_type: 'sea'
+  is_sc: 0
+  home_of: nil
+  coast_1: nil
+  coast_2: nil 
+
+hol:
+  province_code: 'hol'
+  name: 'holland'
+  province_type: 'coast'
+  is_sc: 1
+  home_of: nil
+  coast_1: nil
+  coast_2: nil 
+
+ion:
+  province_code: 'ion'
+  name: 'ionian sea'
+  province_type: 'sea'
+  is_sc: 0
+  home_of: nil
+  coast_1: nil
+  coast_2: nil 
+
+iri:
+  province_code: 'iri'
+  name: 'irish sea'
+  province_type: 'sea'
+  is_sc: 0
+  home_of: nil
+  coast_1: nil
+  coast_2: nil 
+
+kie:
+  province_code: 'kie'
+  name: 'kiel'
+  province_type: 'coast'
+  is_sc: 1
+  home_of: 'de'
+  coast_1: nil
+  coast_2: nil 
+
+lon:
+  province_code: 'lon'
+  name: 'london'
+  province_type: 'coast'
+  is_sc: 1
+  home_of: 'en'
+  coast_1: nil
+  coast_2: nil 
+
+lvp:
+  province_code: 'lvp'
+  name: 'liverpool'
+  province_type: 'coast'
+  is_sc: 1
+  home_of: 'en'
+  coast_1: nil
+  coast_2: nil 
+
+lvn:
+  province_code: 'lvn'
+  name: 'livonia'
+  province_type: 'coast'
+  is_sc: 0
+  home_of: 'ru'
+  coast_1: nil
+  coast_2: nil 
+
+lyo:
+  province_code: 'lyo'
+  name: 'gulf of lyons'
+  province_type: 'sea'
+  is_sc: 0
+  home_of: nil
+  coast_1: nil
+  coast_2: nil 
+
+mar:
+  province_code: 'mar'
+  name: 'marseilles'
+  province_type: 'coast'
+  is_sc: 1
+  home_of: 'fr'
+  coast_1: nil
+  coast_2: nil 
+
+mid:
+  province_code: 'mid'
+  name: 'mid-atlantic ocean'
+  province_type: 'sea'
+  is_sc: 0
+  home_of: nil
+  coast_1: nil
+  coast_2: nil 
+
+mos:
+  province_code: 'mos'
+  name: 'moscow'
+  province_type: 'land'
+  is_sc: 1
+  home_of: 'ru'
+  coast_1: nil
+  coast_2: nil 
+
+mun:
+  province_code: 'mun'
+  name: 'munich'
+  province_type: 'land'
+  is_sc: 1
+  home_of: 'de'
+  coast_1: nil
+  coast_2: nil 
+
+naf:
+  province_code: 'naf'
+  name: 'north africa'
+  province_type: 'coast'
+  is_sc: 0
+  home_of: nil
+  coast_1: nil
+  coast_2: nil 
+
+nap:
+  province_code: 'nap'
+  name: 'naples'
+  province_type: 'coast'
+  is_sc: 1
+  home_of: 'it'
+  coast_1: nil
+  coast_2: nil 
+
+nat:
+  province_code: 'nat'
+  name: 'north atlantic ocean'
+  province_type: 'sea'
+  is_sc: 0
+  home_of: nil
+  coast_1: nil
+  coast_2: nil 
+
+nrg:
+  province_code: 'nrg'
+  name: 'norwegian sea'
+  province_type: 'sea'
+  is_sc: 0
+  home_of: nil
+  coast_1: nil
+  coast_2: nil 
+
+nth:
+  province_code: 'nth'
+  name: 'north sea'
+  province_type: 'sea'
+  is_sc: 0
+  home_of: nil
+  coast_1: nil
+  coast_2: nil 
+
+nor:
+  province_code: 'nor'
+  name: 'norway'
+  province_type: 'coast'
+  is_sc: 1
+  home_of: nil
+  coast_1: nil
+  coast_2: nil 
+
+par:
+  province_code: 'par'
+  name: 'paris'
+  province_type: 'land'
+  is_sc: 1
+  home_of: 'fr'
+  coast_1: nil
+  coast_2: nil 
+
+pic:
+  province_code: 'pic'
+  name: 'picardy'
+  province_type: 'coast'
+  is_sc: 0
+  home_of: 'fr'
+  coast_1: nil
+  coast_2: nil 
+
+pie:
+  province_code: 'pie'
+  name: 'piedmont'
+  province_type: 'coast'
+  is_sc: 0
+  home_of: 'it'
+  coast_1: nil
+  coast_2: nil 
+
+por:
+  province_code: 'por'
+  name: 'portugal'
+  province_type: 'coast'
+  is_sc: 1
+  home_of: nil
+  coast_1: nil
+  coast_2: nil 
+
+pru:
+  province_code: 'pru'
+  name: 'prussia'
+  province_type: 'coast'
+  is_sc: 0
+  home_of: 'de'
+  coast_1: nil
+  coast_2: nil 
+
+rom:
+  province_code: 'rom'
+  name: 'rome'
+  province_type: 'coast'
+  is_sc: 1
+  home_of: 'it'
+  coast_1: nil
+  coast_2: nil 
+
+ruh:
+  province_code: 'ruh'
+  name: 'ruhr'
+  province_type: 'land'
+  is_sc: 0
+  home_of: 'de'
+  coast_1: nil
+  coast_2: nil 
+
+rum:
+  province_code: 'rum'
+  name: 'rumania'
+  province_type: 'coast'
+  is_sc: 1
+  home_of: nil
+  coast_1: nil
+  coast_2: nil 
+
+ser:
+  province_code: 'ser'
+  name: 'serbia'
+  province_type: 'land'
+  is_sc: 1
+  home_of: nil
+  coast_1: nil
+  coast_2: nil 
+
+sev:
+  province_code: 'sev'
+  name: 'sevastopol'
+  province_type: 'coast'
+  is_sc: 1
+  home_of: 'ru'
+  coast_1: nil
+  coast_2: nil 
+
+sil:
+  province_code: 'sil'
+  name: 'silesia'
+  province_type: 'land'
+  is_sc: 0
+  home_of: 'de'
+  coast_1: nil
+  coast_2: nil 
+
+ska:
+  province_code: 'ska'
+  name: 'skagerrack'
+  province_type: 'sea'
+  is_sc: 0
+  home_of: nil
+  coast_1: nil
+  coast_2: nil 
+
+smy:
+  province_code: 'smy'
+  name: 'smyrna'
+  province_type: 'coast'
+  is_sc: 1
+  home_of: 'tr'
+  coast_1: nil
+  coast_2: nil 
+
+spa:
+  province_code: 'spa'
+  name: 'spain'
+  province_type: 'coast'
+  is_sc: 1
+  home_of: nil
+  coast_1: 'sc'
+  coast_2: 'nc' 
+
+stp:
+  province_code: 'stp'
+  name: 'st. petersburg'
+  province_type: 'coast'
+  is_sc: 1
+  home_of: 'ru'
+  coast_1: 'sc'
+  coast_2: 'nc' 
+
+swe:
+  province_code: 'swe'
+  name: 'sweden'
+  province_type: 'coast'
+  is_sc: 1
+  home_of: nil
+  coast_1: nil
+  coast_2: nil 
+
+syr:
+  province_code: 'syr'
+  name: 'syria'
+  province_type: 'coast'
+  is_sc: 0
+  home_of: 'tr'
+  coast_1: nil
+  coast_2: nil 
+
+tri:
+  province_code: 'tri'
+  name: 'trieste'
+  province_type: 'coast'
+  is_sc: 1
+  home_of: 'au'
+  coast_1: nil
+  coast_2: nil 
+
+tro:
+  province_code: 'tro'
+  name: 'tyrolia'
+  province_type: 'land'
+  is_sc: 0
+  home_of: nil
+  coast_1: nil
+  coast_2: nil 
+
+tun:
+  province_code: 'tun'
+  name: 'tunis'
+  province_type: 'coast'
+  is_sc: 1
+  home_of: nil
+  coast_1: nil
+  coast_2: nil 
+
+tus:
+  province_code: 'tus'
+  name: 'tuscany'
+  province_type: 'coast'
+  is_sc: 0
+  home_of: 'it'
+  coast_1: nil
+  coast_2: nil 
+
+trn:
+  province_code: 'trn'
+  name: 'tyrrhenian sea'
+  province_type: 'sea'
+  is_sc: 0
+  home_of: nil
+  coast_1: nil
+  coast_2: nil 
+
+ukr:
+  province_code: 'ukr'
+  name: 'ukraine'
+  province_type: 'land'
+  is_sc: 0
+  home_of: 'ru'
+  coast_1: nil
+  coast_2: nil 
+
+ven:
+  province_code: 'ven'
+  name: 'venice'
+  province_type: 'coast'
+  is_sc: 1
+  home_of: 'it'
+  coast_1: nil
+  coast_2: nil 
+
+vie:
+  province_code: 'vie'
+  name: 'vienna'
+  province_type: 'land'
+  is_sc: 1
+  home_of: 'au'
+  coast_1: nil
+  coast_2: nil 
+
+wal:
+  province_code: 'wal'
+  name: 'wales'
+  province_type: 'coast'
+  is_sc: 0
+  home_of: 'en'
+  coast_1: nil
+  coast_2: nil 
+
+war:
+  province_code: 'war'
+  name: 'warsaw'
+  province_type: 'land'
+  is_sc: 1
+  home_of: 'ru'
+  coast_1: nil
+  coast_2: nil 
+
+wes:
+  province_code: 'wes'
+  name: 'western mediterranean'
+  province_type: 'sea'
+  is_sc: 0
+  home_of: nil
+  coast_1: nil
+  coast_2: nil 
+
+yor:
+  province_code: 'yor'
+  name: 'yorkshire'
+  province_type: 'coast'
+  is_sc: 0
+  home_of: 'en'
+  coast_1: nil
+  coast_2: nil 

@@ -1,11 +1,36 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-one:
-  belongs_to: 
-  belongs_to: 
-  country_code: MyString
+game_country_fr:
+  game: game_one
+  country_code: 'fr'
+  user: user_one
 
-two:
-  belongs_to: 
-  belongs_to: 
-  country_code: MyString
+game_country_de:
+  game: game_one
+  country_code: 'de'
+  user: user_two
+
+game_country_en:
+  game: game_one
+  country_code: 'en'
+  user: user_three
+
+game_country_it:
+  game: game_one
+  country_code: 'it'
+  user: user_four
+
+game_country_tr:
+  game: game_one
+  country_code: 'tr'
+  user: user_five
+
+game_country_ru:
+  game: game_one
+  country_code: 'ru'
+  user: user_six
+
+game_country_au:
+  game: game_one
+  country_code: 'au'
+  user: user_seven

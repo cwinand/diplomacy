@@ -1,9 +1,29 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-one:
-  country_code: MyString
-  name: MyString
+de:
+  country_code: 'de'
+  name: 'germany'
 
-two:
-  country_code: MyString
-  name: MyString
+fr:
+  country_code: 'fr'
+  name: 'france'
+
+en:
+  country_code: 'en'
+  name: 'england'
+
+ru:
+  country_code: 'ru'
+  name: 'russia'
+
+tr:
+  country_code: 'tr'
+  name: 'turkey'
+
+it:
+  country_code: 'it'
+  name: 'italy'
+
+au:
+  country_code: 'au'
+  name: 'austria'

@@ -2,6 +2,6 @@ class Country < ApplicationRecord
   self.primary_key = 'country_code'
 
   def readonly?
-    true
+    # true
   end
 end

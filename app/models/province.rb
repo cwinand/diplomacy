@@ -9,6 +9,6 @@ class Province < ApplicationRecord
   end
 
   def readonly?
-    true
+    # true
   end
 end

@@ -26,6 +26,9 @@ class Game < ApplicationRecord
   def start
     countries = Country.all.pluck('country_code').shuffle
     confirmed_players = self.game_players.confirmed
+    logger.debug "#####"
+    logger.debug countries
+    logger.debug "#####"
 
     countries.each_with_index do |country, index|
       player = confirmed_players[ index ]

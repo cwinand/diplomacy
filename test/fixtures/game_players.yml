@@ -3,9 +3,45 @@
 # This model initially had no columns defined. If you add columns to the
 # model remove the '{}' from the fixture names and add the columns immediately
 # below each fixture, per the syntax in the comments below
-#
-one: {}
-# column: value
-#
-two: {}
-# column: value
+
+player_one:
+  user: user_one
+  game: game_one
+  pending: false
+  confirmed: true
+
+player_two:
+  user: user_two
+  game: game_two
+  pending: false
+  confirmed: true
+
+player_three:
+  user: user_three
+  game: game_three
+  pending: false
+  confirmed: true
+
+player_four:
+  user: user_four
+  game: game_four
+  pending: false
+  confirmed: true
+
+player_five:
+  user: user_five
+  game: game_five
+  pending: false
+  confirmed: true
+
+player_six:
+  user: user_six
+  game: game_six
+  pending: false
+  confirmed: true
+
+player_seven:
+  user: user_seven
+  game: game_seven
+  pending: false
+  confirmed: true
