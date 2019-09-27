@@ -22,4 +22,13 @@ class OrderTest < ActiveSupport::TestCase
     assert_not orders(:f_move_aeg_bul_ec).valid?
   end
 
+  test 'correct support of move is valid' do
+    assert orders(:f_aeg_support_a_con_bul).valid?
+  end
+
+  test 'support from an army to fleet in sea is invalid' do
+    assert_not orders(:a_con_support_f_aeg_eas).valid?
+  end
+
+
 end

@@ -44,7 +44,37 @@ class Order < ApplicationRecord
   end
 
   def valid_support?
+    # Have to use the border's coast in case this is a split coast
+    border_coast = nil
+    if self.unit.unit_type == 'f'
+      border_coast = ProvinceBorder
+        .find_by(province_code: self.support_start, border_province_code: self.support_end)
+        .border_coastal_code
+    end
 
+    # Would this support be a valid move (excluding split coasts, they don't affect this check)
+    valid_move = Order.new(
+      start: self.support_start,
+      end: self.support_end,
+      end_coast: border_coast,
+      order_type: 'move',
+      unit: Unit.new(unit_type: self.unit.unit_type)
+    )
+
+    if !valid_move.valid?
+      return false
+    end
+
+    # Is there an order corresponding to this support in its current turn
+    corresponding = Order.find_by(
+      start: self.support_start,
+      end: self.support_end,
+      end_coast: self.support_end_coast,
+      order_type: self.support_order_type,
+      turn: self.turn
+    )
+
+    return corresponding && corresponding.unit.unit_type == self.support_order_unit_type
   end
 
 
