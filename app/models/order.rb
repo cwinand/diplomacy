@@ -1,5 +1,4 @@
 class Order < ApplicationRecord
-  has_one :supported_order, class_name: "Order", foreign_key: "supported_order_id"
   belongs_to :turn
   belongs_to :game_country
   belongs_to :unit
@@ -42,6 +41,10 @@ class Order < ApplicationRecord
     end
 
     return true
+  end
+
+  def valid_support?
+
   end
 
 

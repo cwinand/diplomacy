@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_09_09_180251) do
+ActiveRecord::Schema.define(version: 2019_09_26_205154) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -79,14 +79,17 @@ ActiveRecord::Schema.define(version: 2019_09_09_180251) do
     t.string "end"
     t.string "order_type"
     t.string "end_coast"
-    t.bigint "supported_order_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.bigint "turn_id", null: false
     t.bigint "game_country_id", null: false
     t.bigint "unit_id"
+    t.string "support_start"
+    t.string "support_end"
+    t.string "support_order_type"
+    t.string "support_order_unit_type"
+    t.string "support_end_coast"
     t.index ["game_country_id"], name: "index_orders_on_game_country_id"
-    t.index ["supported_order_id"], name: "index_orders_on_supported_order_id"
     t.index ["turn_id"], name: "index_orders_on_turn_id"
     t.index ["unit_id"], name: "index_orders_on_unit_id"
   end
@@ -157,7 +160,6 @@ ActiveRecord::Schema.define(version: 2019_09_09_180251) do
   add_foreign_key "game_settings", "games"
   add_foreign_key "games", "users"
   add_foreign_key "orders", "game_countries"
-  add_foreign_key "orders", "orders", column: "supported_order_id"
   add_foreign_key "turns", "games"
   add_foreign_key "units", "game_countries"
 end
