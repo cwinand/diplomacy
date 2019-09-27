@@ -1,61 +1,44 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html %>
 
-## MOVE FIXTURES
 a_move_par_bur:
   start: 'par'
   end: 'bur'
   order_type: 'move'
   end_coast: nil
+  supported_order_id: nil
   turn: first
   game_country: game_country_fr
   unit: fr_army_par
-  support_start: nil
-  support_end: nil
-  support_end_coast: nil
-  support_order_type: nil
-  support_order_unit_type: nil
 
 f_move_aeg_bul_sc:
   start: 'aeg'
   end: 'bul'
   order_type: 'move'
   end_coast: 'sc'
+  supported_order_id: nil
   turn: first
   game_country: game_country_tr
   unit: tr_fleet_aeg
-  support_start: nil
-  support_end: nil
-  support_end_coast: nil
-  support_order_type: nil
-  support_order_unit_type: nil
 
 f_move_aeg_con:
   start: 'aeg'
   end: 'con'
   order_type: 'move'
   end_coast: nil
+  supported_order_id: nil
   turn: first
   game_country: game_country_tr
   unit: tr_fleet_aeg
-  support_start: nil
-  support_end: nil
-  support_end_coast: nil
-  support_order_type: nil
-  support_order_unit_type: nil
 
 f_move_aeg_eas:
   start: 'aeg'
   end: 'eas'
   order_type: 'move'
   end_coast: nil
+  supported_order_id: nil
   turn: first
   game_country: game_country_tr
   unit: tr_fleet_aeg
-  support_start: nil
-  support_end: nil
-  support_end_coast: nil
-  support_order_type: nil
-  support_order_unit_type: nil
 
 a_move_con_bul:
   id: 1
@@ -63,69 +46,47 @@ a_move_con_bul:
   end: 'bul'
   order_type: 'move'
   end_coast: nil
+  supported_order_id: nil
   turn: first
   game_country: game_country_tr
   unit: tr_army_con
-  support_start: nil
-  support_end: nil
-  support_end_coast: nil
-  support_order_type: nil
-  support_order_unit_type: nil
 
 a_move_par_bel:
   start: 'par'
   end: 'bel'
   order_type: 'move'
   end_coast: nil
+  supported_order_id: nil
   turn: first
   game_country: game_country_fr
   unit: fr_army_par
-  support_start: nil
-  support_end: nil
-  support_end_coast: nil
-  support_order_type: nil
-  support_order_unit_type: nil
 
 f_move_aeg_bul_nil:
   start: 'aeg'
   end: 'bul'
   order_type: 'move'
   end_coast: nil
+  supported_order_id: nil
   turn: first
   game_country: game_country_tr
   unit: tr_fleet_aeg
-  support_start: nil
-  support_end: nil
-  support_end_coast: nil
-  support_order_type: nil
-  support_order_unit_type: nil
 
 f_move_aeg_bul_ec:
   start: 'aeg'
   end: 'bul'
   order_type: 'move'
   end_coast: 'ec'
+  supported_order_id: nil
   turn: first
   game_country: game_country_tr
   unit: tr_fleet_aeg
-  support_start: nil
-  support_end: nil
-  support_end_coast: nil
-  support_order_type: nil
-  support_order_unit_type: nil
-
-## SUPPORT FIXTURES
 
 f_aeg_support_a_con_bul:
   start: 'aeg'
   end: 'aeg'
   order_type: 'support'
   end_coast: nil
+  supported_order_id: 1
   turn: first
   game_country: game_country_tr
   unit: tr_fleet_aeg
-  support_start: 'con'
-  support_end: 'bul'
-  support_end_coast: nil
-  support_order_type: 'move'
-  support_order_unit_type: 'a'

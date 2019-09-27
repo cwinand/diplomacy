@@ -20,8 +20,24 @@ class Order < ApplicationRecord
     end
 
     if self.unit.unit_type == 'f'
+
       # Fleet moves to a split coast need to use the correct coast
-      return border.border_coastal_code && border.border_coastal_code == self.end_coast
+      if border.border_coastal_code && border.border_coastal_code != self.end_coast
+        return false
+      end
+
+      # Fleets can't move to land
+      if Province.find_by(province_code: self.end).province_type == 'land'
+        return false
+      end
+
+    elsif self.unit.unit_type == 'a'
+
+      # Armies can't move to sea
+      if Province.find_by(province_code: self.end).province_type == 'sea'
+        return false
+      end
+
     end
 
     return true
