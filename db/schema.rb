@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_09_26_205154) do
+ActiveRecord::Schema.define(version: 2019_09_30_183559) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -88,7 +88,6 @@ ActiveRecord::Schema.define(version: 2019_09_26_205154) do
     t.string "support_end"
     t.string "support_order_type"
     t.string "support_order_unit_type"
-    t.string "support_end_coast"
     t.index ["game_country_id"], name: "index_orders_on_game_country_id"
     t.index ["turn_id"], name: "index_orders_on_turn_id"
     t.index ["unit_id"], name: "index_orders_on_unit_id"

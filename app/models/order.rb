@@ -44,7 +44,7 @@ class Order < ApplicationRecord
   end
 
   def valid_support?
-    # Have to use the border's coast in case this is a split coast
+    # Don't need to match support's coast, just if it has a border, so use the border's coast value
     border_coast = nil
     if self.unit.unit_type == 'f'
       border_coast = ProvinceBorder
@@ -69,7 +69,6 @@ class Order < ApplicationRecord
     corresponding = Order.find_by(
       start: self.support_start,
       end: self.support_end,
-      end_coast: self.support_end_coast,
       order_type: self.support_order_type,
       turn: self.turn
     )

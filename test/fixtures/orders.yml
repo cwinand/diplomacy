@@ -11,7 +11,6 @@ a_move_par_bur:
   unit: fr_army_par
   support_start: nil
   support_end: nil
-  support_end_coast: nil
   support_order_type: nil
   support_order_unit_type: nil
 
@@ -25,7 +24,6 @@ f_move_aeg_bul_sc:
   unit: tr_fleet_aeg
   support_start: nil
   support_end: nil
-  support_end_coast: nil
   support_order_type: nil
   support_order_unit_type: nil
 
@@ -39,7 +37,6 @@ f_move_aeg_con:
   unit: tr_fleet_aeg
   support_start: nil
   support_end: nil
-  support_end_coast: nil
   support_order_type: nil
   support_order_unit_type: nil
 
@@ -53,7 +50,6 @@ f_move_aeg_eas:
   unit: tr_fleet_aeg
   support_start: nil
   support_end: nil
-  support_end_coast: nil
   support_order_type: nil
   support_order_unit_type: nil
 
@@ -68,7 +64,6 @@ a_move_con_bul:
   unit: tr_army_con
   support_start: nil
   support_end: nil
-  support_end_coast: nil
   support_order_type: nil
   support_order_unit_type: nil
 
@@ -82,7 +77,6 @@ a_move_par_bel:
   unit: fr_army_par
   support_start: nil
   support_end: nil
-  support_end_coast: nil
   support_order_type: nil
   support_order_unit_type: nil
 
@@ -96,7 +90,6 @@ f_move_aeg_bul_nil:
   unit: tr_fleet_aeg
   support_start: nil
   support_end: nil
-  support_end_coast: nil
   support_order_type: nil
   support_order_unit_type: nil
 
@@ -110,7 +103,6 @@ f_move_aeg_bul_ec:
   unit: tr_fleet_aeg
   support_start: nil
   support_end: nil
-  support_end_coast: nil
   support_order_type: nil
   support_order_unit_type: nil
 
@@ -127,7 +119,6 @@ f_aeg_support_a_con_bul:
   unit: tr_fleet_aeg
   support_start: 'con'
   support_end: 'bul'
-  support_end_coast: nil
   support_order_type: 'move'
   support_order_unit_type: 'a'
 
@@ -141,6 +132,5 @@ a_con_support_f_aeg_eas:
   unit: tr_army_con
   support_start: 'aeg'
   support_end: 'eas'
-  support_end_coast: nil
   support_order_type: 'move'
   support_order_unit_type: 'f'
