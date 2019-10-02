@@ -3,16 +3,16 @@ class Order < ApplicationRecord
   belongs_to :game_country
   belongs_to :unit
 
-  def valid?
+  def legal?
     case self.order_type
     when 'move'
-      return valid_move?
+      return legal_move?
     when 'support'
-      return valid_support?
+      return legal_support?
     end
   end
 
-  def valid_move?
+  def legal_move?
     border = ProvinceBorder.find_by(province_code: self.start, border_province_code: self.end)
 
     if !border
@@ -43,7 +43,7 @@ class Order < ApplicationRecord
     return true
   end
 
-  def valid_support?
+  def legal_support?
     if self.support_order_type == 'move'
       # Don't need to match support's coast, just if it has a border, so use the border's coast value
       border_coast = nil
@@ -54,7 +54,7 @@ class Order < ApplicationRecord
       end
 
       # Would this support be a valid move (excluding split coasts, they don't affect this check)
-      valid_move = Order.new(
+      legal_move = Order.new(
         start: self.support_start,
         end: self.support_end,
         end_coast: border_coast,
@@ -62,7 +62,7 @@ class Order < ApplicationRecord
         unit: Unit.new(unit_type: self.unit.unit_type)
       )
 
-      if !valid_move.valid?
+      if !legal_move.legal?
         return false
       end
     end
