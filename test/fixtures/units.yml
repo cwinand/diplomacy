@@ -5,6 +5,31 @@ fr_army_par:
   current_province: 'par'
   game_country: game_country_fr
 
+fr_army_pic:
+  unit_type: 'a'
+  current_province: 'pic'
+  game_country: game_country_fr
+
+fr_fleet_bre:
+  unit_type: 'f'
+  current_province: 'bre'
+  game_country: game_country_fr
+
+fr_fleet_eng:
+  unit_type: 'f'
+  current_province: 'eng'
+  game_country: game_country_fr
+
+de_army_ber:
+  unit_type: 'a'
+  current_province: 'ber'
+  game_country: game_country_de
+
+de_army_mun:
+  unit_type: 'a'
+  current_province: 'mun'
+  game_country: game_country_de
+
 tr_army_con:
   unit_type: 'a'
   current_province: 'con'

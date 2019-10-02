@@ -1,6 +1,7 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html %>
 
 ## MOVE FIXTURES
+
 a_move_par_bur:
   start: 'par'
   end: 'bur'
@@ -9,6 +10,32 @@ a_move_par_bur:
   turn: first
   game_country: game_country_fr
   unit: fr_army_par
+  support_start: nil
+  support_end: nil
+  support_order_type: nil
+  support_order_unit_type: nil
+
+a_move_pic_par:
+  start: 'pic'
+  end: 'par'
+  order_type: 'move'
+  end_coast: nil
+  turn: first
+  game_country: game_country_fr
+  unit: fr_army_pic
+  support_start: nil
+  support_end: nil
+  support_order_type: nil
+  support_order_unit_type: nil
+
+a_move_mun_sil:
+  start: 'mun'
+  end: 'sil'
+  order_type: 'move'
+  end_coast: nil
+  turn: first
+  game_country: game_country_de
+  unit: de_army_mun
   support_start: nil
   support_end: nil
   support_order_type: nil
@@ -107,7 +134,7 @@ f_move_aeg_bul_ec:
   support_order_unit_type: nil
 
 
-## MOVE FIXTURES
+## SUPPORT FIXTURES
 
 f_aeg_support_a_con_bul:
   start: 'aeg'
@@ -122,6 +149,19 @@ f_aeg_support_a_con_bul:
   support_order_type: 'move'
   support_order_unit_type: 'a'
 
+a_ber_support_a_mun_hold:
+  start: 'ber'
+  end: 'ber'
+  order_type: 'support'
+  end_coast: nil
+  turn: first
+  game_country: game_country_de
+  unit: de_army_ber
+  support_start: 'mun'
+  support_end: 'mun'
+  support_order_type: 'hold'
+  support_order_unit_type: 'a'
+
 a_con_support_f_aeg_eas:
   start: 'con'
   end: 'con'
@@ -133,4 +173,30 @@ a_con_support_f_aeg_eas:
   support_start: 'aeg'
   support_end: 'eas'
   support_order_type: 'move'
+  support_order_unit_type: 'f'
+
+f_bre_support_a_pic_par:
+  start: 'bre'
+  end: 'bre'
+  order_type: 'support'
+  end_coast: nil
+  turn: first
+  game_country: game_country_fr
+  unit: fr_fleet_bre
+  support_start: 'pic'
+  support_end: 'par'
+  support_order_type: 'move'
+  support_order_unit_type: 'a'
+
+f_eng_support_f_pic_hold:
+  start: 'eng'
+  end: 'eng'
+  order_type: 'support'
+  end_coast: nil
+  turn: first
+  game_country: game_country_fr
+  unit: fr_fleet_eng
+  support_start: 'bre'
+  support_end: 'bre'
+  support_order_type: 'hold'
   support_order_unit_type: 'f'

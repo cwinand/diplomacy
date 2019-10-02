@@ -44,34 +44,50 @@ class Order < ApplicationRecord
   end
 
   def valid_support?
-    # Don't need to match support's coast, just if it has a border, so use the border's coast value
-    border_coast = nil
-    if self.unit.unit_type == 'f'
-      border_coast = ProvinceBorder
-        .find_by(province_code: self.support_start, border_province_code: self.support_end)
-        .border_coastal_code
-    end
+    if self.support_order_type == 'move'
+      # Don't need to match support's coast, just if it has a border, so use the border's coast value
+      border_coast = nil
+      if self.unit.unit_type == 'f'
+        border_coast = ProvinceBorder
+          .find_by(province_code: self.support_start, border_province_code: self.support_end)
+          .border_coastal_code
+      end
 
-    # Would this support be a valid move (excluding split coasts, they don't affect this check)
-    valid_move = Order.new(
-      start: self.support_start,
-      end: self.support_end,
-      end_coast: border_coast,
-      order_type: 'move',
-      unit: Unit.new(unit_type: self.unit.unit_type)
-    )
+      # Would this support be a valid move (excluding split coasts, they don't affect this check)
+      valid_move = Order.new(
+        start: self.support_start,
+        end: self.support_end,
+        end_coast: border_coast,
+        order_type: 'move',
+        unit: Unit.new(unit_type: self.unit.unit_type)
+      )
 
-    if !valid_move.valid?
-      return false
+      if !valid_move.valid?
+        return false
+      end
     end
 
     # Is there an order corresponding to this support in its current turn
-    corresponding = Order.find_by(
-      start: self.support_start,
-      end: self.support_end,
-      order_type: self.support_order_type,
-      turn: self.turn
-    )
+    if self.support_order_type === 'hold'
+      corresponding = Order.where(
+        start: self.support_start,
+        end: self.support_end,
+        order_type: self.support_order_type,
+        turn: self.turn
+      ).or(Order.where(
+        start: self.support_start,
+        end: self.support_end,
+        order_type: 'support',
+        turn: self.turn
+      )).first
+    else
+      corresponding = Order.find_by(
+        start: self.support_start,
+        end: self.support_end,
+        order_type: self.support_order_type,
+        turn: self.turn
+      )
+    end
 
     return corresponding && corresponding.unit.unit_type == self.support_order_unit_type
   end

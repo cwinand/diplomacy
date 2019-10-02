@@ -26,9 +26,20 @@ class OrderTest < ActiveSupport::TestCase
     assert orders(:f_aeg_support_a_con_bul).valid?
   end
 
+  test 'support for a move that is not performed is not valid' do
+    assert_not orders(:a_ber_support_a_mun_hold).valid?
+  end
+
+  test 'support for a supporting unit as a hold is valid' do
+    assert orders(:f_eng_support_f_pic_hold).valid?
+  end
+
   test 'support from an army to fleet in sea is invalid' do
     assert_not orders(:a_con_support_f_aeg_eas).valid?
   end
 
+  test 'support from a fleet to army on land is invalid' do
+    assert_not orders(:f_bre_support_a_pic_par).valid?
+  end
 
 end
