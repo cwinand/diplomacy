@@ -10,6 +10,8 @@ class Order < ApplicationRecord
     when 'support'
       return legal_support?
     end
+
+    return false
   end
 
   def legal_move?
@@ -22,7 +24,9 @@ class Order < ApplicationRecord
     if self.unit.unit_type == 'f'
 
       # Fleet moves to a split coast need to use the correct coast
-      if border.border_coastal_code && border.border_coastal_code != self.end_coast
+      if border.border_coastal_code &&
+          border.border_coastal_code != self.end_coast &&
+          border.border_coastal_code != 'both'
         return false
       end
 
@@ -44,27 +48,25 @@ class Order < ApplicationRecord
   end
 
   def legal_support?
-    if self.support_order_type == 'move'
-      # Don't need to match support's coast, just if it has a border, so use the border's coast value
-      border_coast = nil
-      if self.unit.unit_type == 'f'
-        border_coast = ProvinceBorder
-          .find_by(province_code: self.support_start, border_province_code: self.support_end)
-          .border_coastal_code
-      end
+    # Don't need to match support's coast, just if it has a border, so use the border's coast value
+    border_coast = nil
+    if self.unit.unit_type == 'f'
+      border_coast = ProvinceBorder
+        .find_by(province_code: self.support_start, border_province_code: self.support_end)
+        .border_coastal_code
+    end
 
-      # Would this support be a valid move (excluding split coasts, they don't affect this check)
-      legal_move = Order.new(
-        start: self.support_start,
-        end: self.support_end,
-        end_coast: border_coast,
-        order_type: 'move',
-        unit: Unit.new(unit_type: self.unit.unit_type)
-      )
+    # Would this support be a valid move (excluding split coasts, they don't affect this check)
+    legal_move = Order.new(
+      start: self.start,
+      end: self.support_end,
+      end_coast: border_coast,
+      order_type: 'move',
+      unit: Unit.new(unit_type: self.unit.unit_type)
+    )
 
-      if !legal_move.legal?
-        return false
-      end
+    if !legal_move.legal?
+      return false
     end
 
     # Is there an order corresponding to this support in its current turn

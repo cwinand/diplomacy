@@ -3,5 +3,5 @@
 game_one:
   name: 'Test Game'
   user: user_one
-  started_at: nil
-  ended_at: nil
+  started_at: null
+  ended_at: null

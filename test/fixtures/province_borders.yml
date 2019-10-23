@@ -3,32 +3,32 @@
 adr_tri:
   province_code: 'adr'
   border_province_code: 'tri'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 adr_ven:
   province_code: 'adr'
   border_province_code: 'ven'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 adr_ion:
   province_code: 'adr'
   border_province_code: 'ion'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 adr_apu:
   province_code: 'adr'
   border_province_code: 'apu'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 adr_alb:
   province_code: 'adr'
   border_province_code: 'alb'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 aeg_gre:
   province_code: 'aeg'
   border_province_code: 'gre'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 aeg_bul:
   province_code: 'aeg'
@@ -38,152 +38,152 @@ aeg_bul:
 aeg_con:
   province_code: 'aeg'
   border_province_code: 'con'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 aeg_ion:
   province_code: 'aeg'
   border_province_code: 'ion'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 aeg_eas:
   province_code: 'aeg'
   border_province_code: 'eas'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 aeg_smy:
   province_code: 'aeg'
   border_province_code: 'smy'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 alb_tri:
   province_code: 'alb'
   border_province_code: 'tri'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 alb_adr:
   province_code: 'alb'
   border_province_code: 'adr'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 alb_ion:
   province_code: 'alb'
   border_province_code: 'ion'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 alb_gre:
   province_code: 'alb'
   border_province_code: 'gre'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 alb_ser:
   province_code: 'alb'
   border_province_code: 'ser'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 ank_arm:
   province_code: 'ank'
   border_province_code: 'arm'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 ank_bla:
   province_code: 'ank'
   border_province_code: 'bla'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 ank_con:
   province_code: 'ank'
   border_province_code: 'con'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 ank_smy:
   province_code: 'ank'
   border_province_code: 'smy'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 apu_adr:
   province_code: 'apu'
   border_province_code: 'adr'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 apu_ion:
   province_code: 'apu'
   border_province_code: 'ion'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 apu_rom:
   province_code: 'apu'
   border_province_code: 'rom'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 apu_nap:
   province_code: 'apu'
   border_province_code: 'nap'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 apu_ven:
   province_code: 'apu'
   border_province_code: 'ven'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 arm_sev:
   province_code: 'arm'
   border_province_code: 'sev'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 arm_bla:
   province_code: 'arm'
   border_province_code: 'bla'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 arm_ank:
   province_code: 'arm'
   border_province_code: 'ank'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 arm_syr:
   province_code: 'arm'
   border_province_code: 'syr'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 arm_smy:
   province_code: 'arm'
   border_province_code: 'smy'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 bal_lvn:
   province_code: 'bal'
   border_province_code: 'lvn'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 bal_pru:
   province_code: 'bal'
   border_province_code: 'pru'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 bal_ber:
   province_code: 'bal'
   border_province_code: 'ber'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 bal_kie:
   province_code: 'bal'
   border_province_code: 'kie'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 bal_den:
   province_code: 'bal'
   border_province_code: 'den'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 bal_swe:
   province_code: 'bal'
   border_province_code: 'swe'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 bal_bot:
   province_code: 'bal'
   border_province_code: 'bot'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 bar_stp:
   province_code: 'bar'
@@ -193,72 +193,72 @@ bar_stp:
 bar_nor:
   province_code: 'bar'
   border_province_code: 'nor'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 bar_nrg:
   province_code: 'bar'
   border_province_code: 'nrg'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 bel_hol:
   province_code: 'bel'
   border_province_code: 'hol'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 bel_ruh:
   province_code: 'bel'
   border_province_code: 'ruh'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 bel_bur:
   province_code: 'bel'
   border_province_code: 'bur'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 bel_pic:
   province_code: 'bel'
   border_province_code: 'pic'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 bel_eng:
   province_code: 'bel'
   border_province_code: 'eng'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 bel_nth:
   province_code: 'bel'
   border_province_code: 'nth'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 ber_pru:
   province_code: 'ber'
   border_province_code: 'pru'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 ber_sil:
   province_code: 'ber'
   border_province_code: 'sil'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 ber_mun:
   province_code: 'ber'
   border_province_code: 'mun'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 ber_bal:
   province_code: 'ber'
   border_province_code: 'bal'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 ber_kie:
   province_code: 'ber'
   border_province_code: 'kie'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 bla_sev:
   province_code: 'bla'
   border_province_code: 'sev'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 bla_bul:
   province_code: 'bla'
@@ -268,57 +268,57 @@ bla_bul:
 bla_rum:
   province_code: 'bla'
   border_province_code: 'rum'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 bla_con:
   province_code: 'bla'
   border_province_code: 'con'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 bla_ank:
   province_code: 'bla'
   border_province_code: 'ank'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 bla_arm:
   province_code: 'bla'
   border_province_code: 'arm'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 boh_mun:
   province_code: 'boh'
   border_province_code: 'mun'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 boh_sil:
   province_code: 'boh'
   border_province_code: 'sil'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 boh_gal:
   province_code: 'boh'
   border_province_code: 'gal'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 boh_vie:
   province_code: 'boh'
   border_province_code: 'vie'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 boh_tro:
   province_code: 'boh'
   border_province_code: 'tro'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 bot_swe:
   province_code: 'bot'
   border_province_code: 'swe'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 bot_fin:
   province_code: 'bot'
   border_province_code: 'fin'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 bot_stp:
   province_code: 'bot'
@@ -328,77 +328,77 @@ bot_stp:
 bot_lvn:
   province_code: 'bot'
   border_province_code: 'lvn'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 bot_bal:
   province_code: 'bot'
   border_province_code: 'bal'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 bre_mid:
   province_code: 'bre'
   border_province_code: 'mid'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 bre_eng:
   province_code: 'bre'
   border_province_code: 'eng'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 bre_gas:
   province_code: 'bre'
   border_province_code: 'gas'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 bre_pic:
   province_code: 'bre'
   border_province_code: 'pic'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 bre_par:
   province_code: 'bre'
   border_province_code: 'par'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 bud_gal:
   province_code: 'bud'
   border_province_code: 'gal'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 bud_rum:
   province_code: 'bud'
   border_province_code: 'rum'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 bud_ser:
   province_code: 'bud'
   border_province_code: 'ser'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 bud_vie:
   province_code: 'bud'
   border_province_code: 'vie'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 bud_tri:
   province_code: 'bud'
   border_province_code: 'tri'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 bul_rum:
   province_code: 'bul'
   border_province_code: 'rum'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 bul_con:
   province_code: 'bul'
   border_province_code: 'con'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 bul_ser:
   province_code: 'bul'
   border_province_code: 'ser'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 bul_bla:
   province_code: 'bul'
@@ -413,617 +413,617 @@ bul_aeg:
 bur_mun:
   province_code: 'bur'
   border_province_code: 'mun'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 bur_par:
   province_code: 'bur'
   border_province_code: 'par'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 bur_mar:
   province_code: 'bur'
   border_province_code: 'mar'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 bur_gas:
   province_code: 'bur'
   border_province_code: 'gas'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 bur_ruh:
   province_code: 'bur'
   border_province_code: 'ruh'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 bur_bel:
   province_code: 'bur'
   border_province_code: 'bel'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 bur_pic:
   province_code: 'bur'
   border_province_code: 'pic'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 cly_nat:
   province_code: 'cly'
   border_province_code: 'nat'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 cly_nrg:
   province_code: 'cly'
   border_province_code: 'nrg'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 cly_edi:
   province_code: 'cly'
   border_province_code: 'edi'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 cly_lvp:
   province_code: 'cly'
   border_province_code: 'lvp'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 con_bul:
   province_code: 'con'
   border_province_code: 'bul'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 con_bla:
   province_code: 'con'
   border_province_code: 'bla'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 con_ank:
   province_code: 'con'
   border_province_code: 'ank'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 con_smy:
   province_code: 'con'
   border_province_code: 'smy'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 con_aeg:
   province_code: 'con'
   border_province_code: 'aeg'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 den_ska:
   province_code: 'den'
   border_province_code: 'ska'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 den_bal:
   province_code: 'den'
   border_province_code: 'bal'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 den_kie:
   province_code: 'den'
   border_province_code: 'kie'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 den_hel:
   province_code: 'den'
   border_province_code: 'hel'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 den_nth:
   province_code: 'den'
   border_province_code: 'nth'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 den_swe:
   province_code: 'den'
   border_province_code: 'swe'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 eas_smy:
   province_code: 'eas'
   border_province_code: 'smy'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 eas_syr:
   province_code: 'eas'
   border_province_code: 'syr'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 eas_aeg:
   province_code: 'eas'
   border_province_code: 'aeg'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 eas_ion:
   province_code: 'eas'
   border_province_code: 'ion'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 edi_cly:
   province_code: 'edi'
   border_province_code: 'cly'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 edi_lvp:
   province_code: 'edi'
   border_province_code: 'lvp'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 edi_yor:
   province_code: 'edi'
   border_province_code: 'yor'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 edi_nrg:
   province_code: 'edi'
   border_province_code: 'nrg'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 edi_nth:
   province_code: 'edi'
   border_province_code: 'nth'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 eng_wal:
   province_code: 'eng'
   border_province_code: 'wal'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 eng_lon:
   province_code: 'eng'
   border_province_code: 'lon'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 eng_bre:
   province_code: 'eng'
   border_province_code: 'bre'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 eng_bel:
   province_code: 'eng'
   border_province_code: 'bel'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 eng_pic:
   province_code: 'eng'
   border_province_code: 'pic'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 eng_iri:
   province_code: 'eng'
   border_province_code: 'iri'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 eng_mid:
   province_code: 'eng'
   border_province_code: 'mid'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 fin_stp:
   province_code: 'fin'
   border_province_code: 'stp'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 fin_nor:
   province_code: 'fin'
   border_province_code: 'nor'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 fin_swe:
   province_code: 'fin'
   border_province_code: 'swe'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 fin_bot:
   province_code: 'fin'
   border_province_code: 'bot'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 gal_war:
   province_code: 'gal'
   border_province_code: 'war'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 gal_ukr:
   province_code: 'gal'
   border_province_code: 'ukr'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 gal_rum:
   province_code: 'gal'
   border_province_code: 'rum'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 gal_bud:
   province_code: 'gal'
   border_province_code: 'bud'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 gal_vie:
   province_code: 'gal'
   border_province_code: 'vie'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 gal_boh:
   province_code: 'gal'
   border_province_code: 'boh'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 gal_sil:
   province_code: 'gal'
   border_province_code: 'sil'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 gas_spa:
   province_code: 'gas'
   border_province_code: 'spa'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 gas_bre:
   province_code: 'gas'
   border_province_code: 'bre'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 gas_bur:
   province_code: 'gas'
   border_province_code: 'bur'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 gas_par:
   province_code: 'gas'
   border_province_code: 'par'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 gas_mar:
   province_code: 'gas'
   border_province_code: 'mar'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 gas_mid:
   province_code: 'gas'
   border_province_code: 'mid'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 gre_aeg:
   province_code: 'gre'
   border_province_code: 'aeg'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 gre_bul:
   province_code: 'gre'
   border_province_code: 'bul'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 gre_ser:
   province_code: 'gre'
   border_province_code: 'ser'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 gre_alb:
   province_code: 'gre'
   border_province_code: 'alb'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 gre_ion:
   province_code: 'gre'
   border_province_code: 'ion'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 hel_den:
   province_code: 'hel'
   border_province_code: 'den'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 hel_nth:
   province_code: 'hel'
   border_province_code: 'nth'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 hel_hol:
   province_code: 'hel'
   border_province_code: 'hol'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 hel_kie:
   province_code: 'hel'
   border_province_code: 'kie'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 hol_bel:
   province_code: 'hol'
   border_province_code: 'bel'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 hol_ruh:
   province_code: 'hol'
   border_province_code: 'ruh'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 hol_kie:
   province_code: 'hol'
   border_province_code: 'kie'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 hol_hel:
   province_code: 'hol'
   border_province_code: 'hel'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 hol_nth:
   province_code: 'hol'
   border_province_code: 'nth'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 ion_aeg:
   province_code: 'ion'
   border_province_code: 'aeg'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 ion_nap:
   province_code: 'ion'
   border_province_code: 'nap'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 ion_adr:
   province_code: 'ion'
   border_province_code: 'adr'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 ion_apu:
   province_code: 'ion'
   border_province_code: 'apu'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 ion_eas:
   province_code: 'ion'
   border_province_code: 'eas'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 ion_gre:
   province_code: 'ion'
   border_province_code: 'gre'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 ion_alb:
   province_code: 'ion'
   border_province_code: 'alb'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 ion_tun:
   province_code: 'ion'
   border_province_code: 'tun'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 ion_trn:
   province_code: 'ion'
   border_province_code: 'trn'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 iri_lvp:
   province_code: 'iri'
   border_province_code: 'lvp'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 iri_wal:
   province_code: 'iri'
   border_province_code: 'wal'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 iri_eng:
   province_code: 'iri'
   border_province_code: 'eng'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 iri_mid:
   province_code: 'iri'
   border_province_code: 'mid'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 iri_nat:
   province_code: 'iri'
   border_province_code: 'nat'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 kie_den:
   province_code: 'kie'
   border_province_code: 'den'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 kie_ber:
   province_code: 'kie'
   border_province_code: 'ber'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 kie_mun:
   province_code: 'kie'
   border_province_code: 'mun'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 kie_ruh:
   province_code: 'kie'
   border_province_code: 'ruh'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 kie_hol:
   province_code: 'kie'
   border_province_code: 'hol'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 kie_hel:
   province_code: 'kie'
   border_province_code: 'hel'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 kie_bal:
   province_code: 'kie'
   border_province_code: 'bal'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 lon_yor:
   province_code: 'lon'
   border_province_code: 'yor'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 lon_wal:
   province_code: 'lon'
   border_province_code: 'wal'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 lon_eng:
   province_code: 'lon'
   border_province_code: 'eng'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 lon_nth:
   province_code: 'lon'
   border_province_code: 'nth'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 lvn_bal:
   province_code: 'lvn'
   border_province_code: 'bal'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 lvn_stp:
   province_code: 'lvn'
   border_province_code: 'stp'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 lvn_mos:
   province_code: 'lvn'
   border_province_code: 'mos'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 lvn_bot:
   province_code: 'lvn'
   border_province_code: 'bot'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 lvn_war:
   province_code: 'lvn'
   border_province_code: 'war'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 lvn_pru:
   province_code: 'lvn'
   border_province_code: 'pru'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 lvp_wal:
   province_code: 'lvp'
   border_province_code: 'wal'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 lvp_yor:
   province_code: 'lvp'
   border_province_code: 'yor'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 lvp_edi:
   province_code: 'lvp'
   border_province_code: 'edi'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 lvp_cly:
   province_code: 'lvp'
   border_province_code: 'cly'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 lvp_iri:
   province_code: 'lvp'
   border_province_code: 'iri'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 lvp_nat:
   province_code: 'lvp'
   border_province_code: 'nat'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 lyo_mar:
   province_code: 'lyo'
   border_province_code: 'mar'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 lyo_pie:
   province_code: 'lyo'
   border_province_code: 'pie'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 lyo_tus:
   province_code: 'lyo'
   border_province_code: 'tus'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 lyo_trn:
   province_code: 'lyo'
   border_province_code: 'trn'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 lyo_wes:
   province_code: 'lyo'
   border_province_code: 'wes'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 lyo_spa:
   province_code: 'lyo'
   border_province_code: 'spa'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 mar_spa:
   province_code: 'mar'
   border_province_code: 'spa'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 mar_gas:
   province_code: 'mar'
   border_province_code: 'gas'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 mar_bur:
   province_code: 'mar'
   border_province_code: 'bur'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 mar_pie:
   province_code: 'mar'
   border_province_code: 'pie'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 mar_lyo:
   province_code: 'mar'
   border_province_code: 'lyo'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 mid_iri:
   province_code: 'mid'
   border_province_code: 'iri'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 mid_nat:
   province_code: 'mid'
   border_province_code: 'nat'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 mid_bre:
   province_code: 'mid'
   border_province_code: 'bre'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 mid_gas:
   province_code: 'mid'
   border_province_code: 'gas'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 mid_naf:
   province_code: 'mid'
   border_province_code: 'naf'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 mid_wes:
   province_code: 'mid'
   border_province_code: 'wes'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 mid_spa:
   province_code: 'mid'
@@ -1033,327 +1033,327 @@ mid_spa:
 mid_eng:
   province_code: 'mid'
   border_province_code: 'eng'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 mid_por:
   province_code: 'mid'
   border_province_code: 'por'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 mos_stp:
   province_code: 'mos'
   border_province_code: 'stp'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 mos_war:
   province_code: 'mos'
   border_province_code: 'war'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 mos_lvn:
   province_code: 'mos'
   border_province_code: 'lvn'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 mos_ukr:
   province_code: 'mos'
   border_province_code: 'ukr'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 mos_sev:
   province_code: 'mos'
   border_province_code: 'sev'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 mun_bur:
   province_code: 'mun'
   border_province_code: 'bur'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 mun_boh:
   province_code: 'mun'
   border_province_code: 'boh'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 mun_sil:
   province_code: 'mun'
   border_province_code: 'sil'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 mun_ber:
   province_code: 'mun'
   border_province_code: 'ber'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 mun_kie:
   province_code: 'mun'
   border_province_code: 'kie'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 mun_ruh:
   province_code: 'mun'
   border_province_code: 'ruh'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 mun_tro:
   province_code: 'mun'
   border_province_code: 'tro'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 naf_tun:
   province_code: 'naf'
   border_province_code: 'tun'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 naf_wes:
   province_code: 'naf'
   border_province_code: 'wes'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 naf_mid:
   province_code: 'naf'
   border_province_code: 'mid'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 nap_rom:
   province_code: 'nap'
   border_province_code: 'rom'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 nap_apu:
   province_code: 'nap'
   border_province_code: 'apu'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 nap_ion:
   province_code: 'nap'
   border_province_code: 'ion'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 nap_trn:
   province_code: 'nap'
   border_province_code: 'trn'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 nat_mid:
   province_code: 'nat'
   border_province_code: 'mid'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 nat_cly:
   province_code: 'nat'
   border_province_code: 'cly'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 nat_nrg:
   province_code: 'nat'
   border_province_code: 'nrg'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 nat_lvp:
   province_code: 'nat'
   border_province_code: 'lvp'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 nat_iri:
   province_code: 'nat'
   border_province_code: 'iri'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 nor_nrg:
   province_code: 'nor'
   border_province_code: 'nrg'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 nor_swe:
   province_code: 'nor'
   border_province_code: 'swe'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 nor_fin:
   province_code: 'nor'
   border_province_code: 'fin'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 nor_stp:
   province_code: 'nor'
   border_province_code: 'stp'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 nor_ska:
   province_code: 'nor'
   border_province_code: 'ska'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 nor_nth:
   province_code: 'nor'
   border_province_code: 'nth'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 nor_bar:
   province_code: 'nor'
   border_province_code: 'bar'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 nrg_nor:
   province_code: 'nrg'
   border_province_code: 'nor'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 nrg_bar:
   province_code: 'nrg'
   border_province_code: 'bar'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 nrg_nth:
   province_code: 'nrg'
   border_province_code: 'nth'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 nrg_nat:
   province_code: 'nrg'
   border_province_code: 'nat'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 nrg_edi:
   province_code: 'nrg'
   border_province_code: 'edi'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 nrg_cly:
   province_code: 'nrg'
   border_province_code: 'cly'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 nth_nrg:
   province_code: 'nth'
   border_province_code: 'nrg'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 nth_nor:
   province_code: 'nth'
   border_province_code: 'nor'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 nth_edi:
   province_code: 'nth'
   border_province_code: 'edi'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 nth_yor:
   province_code: 'nth'
   border_province_code: 'yor'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 nth_lon:
   province_code: 'nth'
   border_province_code: 'lon'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 nth_eng:
   province_code: 'nth'
   border_province_code: 'eng'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 nth_hel:
   province_code: 'nth'
   border_province_code: 'hel'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 nth_ska:
   province_code: 'nth'
   border_province_code: 'ska'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 nth_bel:
   province_code: 'nth'
   border_province_code: 'bel'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 nth_hol:
   province_code: 'nth'
   border_province_code: 'hol'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 nth_den:
   province_code: 'nth'
   border_province_code: 'den'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 par_bur:
   province_code: 'par'
   border_province_code: 'bur'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 par_bre:
   province_code: 'par'
   border_province_code: 'bre'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 par_pic:
   province_code: 'par'
   border_province_code: 'pic'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 par_gas:
   province_code: 'par'
   border_province_code: 'gas'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 pic_par:
   province_code: 'pic'
   border_province_code: 'par'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 pic_bel:
   province_code: 'pic'
   border_province_code: 'bel'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 pic_bre:
   province_code: 'pic'
   border_province_code: 'bre'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 pic_eng:
   province_code: 'pic'
   border_province_code: 'eng'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 pic_bur:
   province_code: 'pic'
   border_province_code: 'bur'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 pie_mar:
   province_code: 'pie'
   border_province_code: 'mar'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 pie_ven:
   province_code: 'pie'
   border_province_code: 'ven'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 pie_tro:
   province_code: 'pie'
   border_province_code: 'tro'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 pie_lyo:
   province_code: 'pie'
   border_province_code: 'lyo'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 pie_tus:
   province_code: 'pie'
   border_province_code: 'tus'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 por_mid:
   province_code: 'por'
   border_province_code: 'mid'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 por_spa:
   province_code: 'por'
@@ -1363,252 +1363,252 @@ por_spa:
 pru_ber:
   province_code: 'pru'
   border_province_code: 'ber'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 pru_bal:
   province_code: 'pru'
   border_province_code: 'bal'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 pru_war:
   province_code: 'pru'
   border_province_code: 'war'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 pru_sil:
   province_code: 'pru'
   border_province_code: 'sil'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 pru_lvn:
   province_code: 'pru'
   border_province_code: 'lvn'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 rom_tus:
   province_code: 'rom'
   border_province_code: 'tus'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 rom_trn:
   province_code: 'rom'
   border_province_code: 'trn'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 rom_ven:
   province_code: 'rom'
   border_province_code: 'ven'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 rom_apu:
   province_code: 'rom'
   border_province_code: 'apu'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 rom_nap:
   province_code: 'rom'
   border_province_code: 'nap'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 ruh_mun:
   province_code: 'ruh'
   border_province_code: 'mun'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 ruh_bel:
   province_code: 'ruh'
   border_province_code: 'bel'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 ruh_hol:
   province_code: 'ruh'
   border_province_code: 'hol'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 ruh_kie:
   province_code: 'ruh'
   border_province_code: 'kie'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 ruh_bur:
   province_code: 'ruh'
   border_province_code: 'bur'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 rum_bul:
   province_code: 'rum'
   border_province_code: 'bul'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 rum_bud:
   province_code: 'rum'
   border_province_code: 'bud'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 rum_sev:
   province_code: 'rum'
   border_province_code: 'sev'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 rum_bla:
   province_code: 'rum'
   border_province_code: 'bla'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 rum_gal:
   province_code: 'rum'
   border_province_code: 'gal'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 rum_ukr:
   province_code: 'rum'
   border_province_code: 'ukr'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 rum_ser:
   province_code: 'rum'
   border_province_code: 'ser'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 ser_tri:
   province_code: 'ser'
   border_province_code: 'tri'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 ser_bud:
   province_code: 'ser'
   border_province_code: 'bud'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 ser_rum:
   province_code: 'ser'
   border_province_code: 'rum'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 ser_bul:
   province_code: 'ser'
   border_province_code: 'bul'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 ser_gre:
   province_code: 'ser'
   border_province_code: 'gre'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 ser_alb:
   province_code: 'ser'
   border_province_code: 'alb'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 sev_mos:
   province_code: 'sev'
   border_province_code: 'mos'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 sev_ukr:
   province_code: 'sev'
   border_province_code: 'ukr'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 sev_rum:
   province_code: 'sev'
   border_province_code: 'rum'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 sev_bla:
   province_code: 'sev'
   border_province_code: 'bla'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 sev_arm:
   province_code: 'sev'
   border_province_code: 'arm'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 sil_ber:
   province_code: 'sil'
   border_province_code: 'ber'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 sil_pru:
   province_code: 'sil'
   border_province_code: 'pru'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 sil_war:
   province_code: 'sil'
   border_province_code: 'war'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 sil_gal:
   province_code: 'sil'
   border_province_code: 'gal'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 sil_boh:
   province_code: 'sil'
   border_province_code: 'boh'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 sil_mun:
   province_code: 'sil'
   border_province_code: 'mun'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 ska_nor:
   province_code: 'ska'
   border_province_code: 'nor'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 ska_swe:
   province_code: 'ska'
   border_province_code: 'swe'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 ska_bal:
   province_code: 'ska'
   border_province_code: 'bal'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 ska_nth:
   province_code: 'ska'
   border_province_code: 'nth'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 ska_den:
   province_code: 'ska'
   border_province_code: 'den'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 smy_cons:
   province_code: 'smy'
   border_province_code: 'cons'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 smy_ank:
   province_code: 'smy'
   border_province_code: 'ank'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 smy_syr:
   province_code: 'smy'
   border_province_code: 'syr'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 smy_arm:
   province_code: 'smy'
   border_province_code: 'arm'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 smy_eas:
   province_code: 'smy'
   border_province_code: 'eas'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 smy_aeg:
   province_code: 'smy'
   border_province_code: 'aeg'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 spa_por:
   province_code: 'spa'
@@ -1628,32 +1628,32 @@ spa_wes:
 spa_lyo:
   province_code: 'spa'
   border_province_code: 'lyo'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 spa_mar:
   province_code: 'spa'
   border_province_code: 'mar'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 spa_gas:
   province_code: 'spa'
   border_province_code: 'gas'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 stp_fin:
   province_code: 'stp'
   border_province_code: 'fin'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 stp_nor:
   province_code: 'stp'
   border_province_code: 'nor'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 stp_mos:
   province_code: 'stp'
   border_province_code: 'mos'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 stp_bar:
   province_code: 'stp'
@@ -1668,327 +1668,327 @@ stp_bot:
 stp_lvn:
   province_code: 'stp'
   border_province_code: 'lvn'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 swe_nor:
   province_code: 'swe'
   border_province_code: 'nor'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 swe_fin:
   province_code: 'swe'
   border_province_code: 'fin'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 swe_den:
   province_code: 'swe'
   border_province_code: 'den'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 swe_bot:
   province_code: 'swe'
   border_province_code: 'bot'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 swe_ska:
   province_code: 'swe'
   border_province_code: 'ska'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 syr_arm:
   province_code: 'syr'
   border_province_code: 'arm'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 syr_syr:
   province_code: 'syr'
   border_province_code: 'syr'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 syr_eas:
   province_code: 'syr'
   border_province_code: 'eas'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 tri_adr:
   province_code: 'tri'
   border_province_code: 'adr'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 tri_ven:
   province_code: 'tri'
   border_province_code: 'ven'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 tri_tro:
   province_code: 'tri'
   border_province_code: 'tro'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 tri_vie:
   province_code: 'tri'
   border_province_code: 'vie'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 tri_bud:
   province_code: 'tri'
   border_province_code: 'bud'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 tri_ser:
   province_code: 'tri'
   border_province_code: 'ser'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 tri_alb:
   province_code: 'tri'
   border_province_code: 'alb'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 trn_tus:
   province_code: 'trn'
   border_province_code: 'tus'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 trn_rom:
   province_code: 'trn'
   border_province_code: 'rom'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 trn_nap:
   province_code: 'trn'
   border_province_code: 'nap'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 trn_wes:
   province_code: 'trn'
   border_province_code: 'wes'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 trn_lyo:
   province_code: 'trn'
   border_province_code: 'lyo'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 trn_ion:
   province_code: 'trn'
   border_province_code: 'ion'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 trn_tun:
   province_code: 'trn'
   border_province_code: 'tun'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 tro_tri:
   province_code: 'tro'
   border_province_code: 'tri'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 tro_mun:
   province_code: 'tro'
   border_province_code: 'mun'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 tro_boh:
   province_code: 'tro'
   border_province_code: 'boh'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 tro_pie:
   province_code: 'tro'
   border_province_code: 'pie'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 tro_ven:
   province_code: 'tro'
   border_province_code: 'ven'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 tun_trn:
   province_code: 'tun'
   border_province_code: 'trn'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 tun_ion:
   province_code: 'tun'
   border_province_code: 'ion'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 tun_wes:
   province_code: 'tun'
   border_province_code: 'wes'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 tun_naf:
   province_code: 'tun'
   border_province_code: 'naf'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 tus_pie:
   province_code: 'tus'
   border_province_code: 'pie'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 tus_ven:
   province_code: 'tus'
   border_province_code: 'ven'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 tus_rom:
   province_code: 'tus'
   border_province_code: 'rom'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 tus_trn:
   province_code: 'tus'
   border_province_code: 'trn'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 tus_lyo:
   province_code: 'tus'
   border_province_code: 'lyo'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 ukr_mos:
   province_code: 'ukr'
   border_province_code: 'mos'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 ukr_sev:
   province_code: 'ukr'
   border_province_code: 'sev'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 ukr_rum:
   province_code: 'ukr'
   border_province_code: 'rum'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 ukr_gal:
   province_code: 'ukr'
   border_province_code: 'gal'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 ukr_war:
   province_code: 'ukr'
   border_province_code: 'war'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 ven_rom:
   province_code: 'ven'
   border_province_code: 'rom'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 ven_tus:
   province_code: 'ven'
   border_province_code: 'tus'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 ven_pie:
   province_code: 'ven'
   border_province_code: 'pie'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 ven_apu:
   province_code: 'ven'
   border_province_code: 'apu'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 ven_tro:
   province_code: 'ven'
   border_province_code: 'tro'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 ven_tri:
   province_code: 'ven'
   border_province_code: 'tri'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 vie_boh:
   province_code: 'vie'
   border_province_code: 'boh'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 vie_bud:
   province_code: 'vie'
   border_province_code: 'bud'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 vie_gal:
   province_code: 'vie'
   border_province_code: 'gal'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 vie_tri:
   province_code: 'vie'
   border_province_code: 'tri'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 vie_tro:
   province_code: 'vie'
   border_province_code: 'tro'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 wal_iri:
   province_code: 'wal'
   border_province_code: 'iri'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 wal_lvp:
   province_code: 'wal'
   border_province_code: 'lvp'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 wal_yor:
   province_code: 'wal'
   border_province_code: 'yor'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 wal_lon:
   province_code: 'wal'
   border_province_code: 'lon'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 wal_eng:
   province_code: 'wal'
   border_province_code: 'eng'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 war_pru:
   province_code: 'war'
   border_province_code: 'pru'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 war_lvn:
   province_code: 'war'
   border_province_code: 'lvn'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 war_mos:
   province_code: 'war'
   border_province_code: 'mos'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 war_ukr:
   province_code: 'war'
   border_province_code: 'ukr'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 war_gal:
   province_code: 'war'
   border_province_code: 'gal'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 war_sil:
   province_code: 'war'
   border_province_code: 'sil'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 wes_mid:
   province_code: 'wes'
   border_province_code: 'mid'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 wes_spa:
   province_code: 'wes'
@@ -1998,44 +1998,44 @@ wes_spa:
 wes_naf:
   province_code: 'wes'
   border_province_code: 'naf'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 wes_tun:
   province_code: 'wes'
   border_province_code: 'tun'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 wes_trn:
   province_code: 'wes'
   border_province_code: 'trn'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 wes_lyo:
   province_code: 'wes'
   border_province_code: 'lyo'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 yor_edi:
   province_code: 'yor'
   border_province_code: 'edi'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 yor_lvp:
   province_code: 'yor'
   border_province_code: 'lvp'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 yor_wal:
   province_code: 'yor'
   border_province_code: 'wal'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 yor_lon:
   province_code: 'yor'
   border_province_code: 'lon'
-  border_coastal_code: nil
+  border_coastal_code: null
 
 yor_nth:
   province_code: 'yor'
   border_province_code: 'nth'
-  border_coastal_code: nil
+  border_coastal_code: null

@@ -5,27 +5,27 @@ adr:
   name: 'adriatic sea'
   province_type: 'sea'
   is_sc: 0
-  home_of: nil
-  coast_1: nil
-  coast_2: nil 
+  home_of: null
+  coast_1: null
+  coast_2: null 
 
 aeg:
   province_code: 'aeg'
   name: 'aegean sea'
   province_type: 'coast'
   is_sc: 0
-  home_of: nil
-  coast_1: nil
-  coast_2: nil 
+  home_of: null
+  coast_1: null
+  coast_2: null 
 
 alb:
   province_code: 'alb'
   name: 'albania'
   province_type: 'coast'
   is_sc: 0
-  home_of: nil
-  coast_1: nil
-  coast_2: nil 
+  home_of: null
+  coast_1: null
+  coast_2: null 
 
 ank:
   province_code: 'ank'
@@ -33,17 +33,17 @@ ank:
   province_type: 'coast'
   is_sc: 1
   home_of: 'tr'
-  coast_1: nil
-  coast_2: nil 
+  coast_1: null
+  coast_2: null 
 
 apu:
   province_code: 'apu'
   name: 'apulia'
   province_type: 'coast'
   is_sc: 0
-  home_of: nil
-  coast_1: nil
-  coast_2: nil 
+  home_of: null
+  coast_1: null
+  coast_2: null 
 
 arm:
   province_code: 'arm'
@@ -51,35 +51,35 @@ arm:
   province_type: 'coast'
   is_sc: 0
   home_of: 'tr'
-  coast_1: nil
-  coast_2: nil
+  coast_1: null
+  coast_2: null
 
 bal:
   province_code: 'bal'
   name: 'baltic sea'
   province_type: 'sea'
   is_sc: 0
-  home_of: nil
-  coast_1: nil
-  coast_2: nil 
+  home_of: null
+  coast_1: null
+  coast_2: null 
 
 bar:
   province_code: 'bar'
   name: 'barents sea'
   province_type: 'sea'
   is_sc: 0
-  home_of: nil
-  coast_1: nil
-  coast_2: nil 
+  home_of: null
+  coast_1: null
+  coast_2: null 
 
 bel:
   province_code: 'bel'
   name: 'belgium'
   province_type: 'coast'
   is_sc: 1
-  home_of: nil
-  coast_1: nil
-  coast_2: nil 
+  home_of: null
+  coast_1: null
+  coast_2: null 
 
 ber:
   province_code: 'ber'
@@ -87,17 +87,17 @@ ber:
   province_type: 'coast'
   is_sc: 1
   home_of: 'de'
-  coast_1: nil
-  coast_2: nil 
+  coast_1: null
+  coast_2: null 
 
 bla:
   province_code: 'bla'
   name: 'black sea'
   province_type: 'sea'
   is_sc: 0
-  home_of: nil
-  coast_1: nil
-  coast_2: nil 
+  home_of: null
+  coast_1: null
+  coast_2: null 
 
 boh:
   province_code: 'boh'
@@ -105,17 +105,17 @@ boh:
   province_type: 'land'
   is_sc: 0
   home_of: 'au'
-  coast_1: nil
-  coast_2: nil 
+  coast_1: null
+  coast_2: null 
 
 bot:
   province_code: 'bot'
   name: 'gulf of bothnia'
   province_type: 'sea'
   is_sc: 0
-  home_of: nil
-  coast_1: nil
-  coast_2: nil 
+  home_of: null
+  coast_1: null
+  coast_2: null 
 
 bre:
   province_code: 'bre'
@@ -123,8 +123,8 @@ bre:
   province_type: 'coast'
   is_sc: 1
   home_of: 'fr'
-  coast_1: nil
-  coast_2: nil 
+  coast_1: null
+  coast_2: null 
 
 bud:
   province_code: 'bud'
@@ -132,15 +132,15 @@ bud:
   province_type: 'land'
   is_sc: 1
   home_of: 'au'
-  coast_1: nil
-  coast_2: nil 
+  coast_1: null
+  coast_2: null 
 
 bul:
   province_code: 'bul'
   name: 'bulgaria'
   province_type: 'coast'
   is_sc: 1
-  home_of: nil
+  home_of: null
   coast_1: 'sc'
   coast_2: 'ec' 
 
@@ -150,8 +150,8 @@ bur:
   province_type: 'land'
   is_sc: 0
   home_of: 'fr'
-  coast_1: nil
-  coast_2: nil 
+  coast_1: null
+  coast_2: null 
 
 cly:
   province_code: 'cly'
@@ -159,8 +159,8 @@ cly:
   province_type: 'coast'
   is_sc: 0
   home_of: 'en'
-  coast_1: nil
-  coast_2: nil 
+  coast_1: null
+  coast_2: null 
 
 con:
   province_code: 'con'
@@ -168,26 +168,26 @@ con:
   province_type: 'coast'
   is_sc: 1
   home_of: 'tr'
-  coast_1: nil
-  coast_2: nil 
+  coast_1: null
+  coast_2: null 
 
 den:
   province_code: 'den'
   name: 'denmark'
   province_type: 'coast'
   is_sc: 1
-  home_of: nil
-  coast_1: nil
-  coast_2: nil 
+  home_of: null
+  coast_1: null
+  coast_2: null 
 
 eas:
   province_code: 'eas'
   name: 'eastern mediterranean'
   province_type: 'sea'
   is_sc: 0
-  home_of: nil
-  coast_1: nil
-  coast_2: nil 
+  home_of: null
+  coast_1: null
+  coast_2: null 
 
 edi:
   province_code: 'edi'
@@ -195,26 +195,26 @@ edi:
   province_type: 'coast'
   is_sc: 1
   home_of: 'en'
-  coast_1: nil
-  coast_2: nil 
+  coast_1: null
+  coast_2: null 
 
 eng:
   province_code: 'eng'
   name: 'english channel'
   province_type: 'sea'
   is_sc: 0
-  home_of: nil
-  coast_1: nil
-  coast_2: nil 
+  home_of: null
+  coast_1: null
+  coast_2: null 
 
 fin:
   province_code: 'fin'
   name: 'finland'
   province_type: 'coast'
   is_sc: 0
-  home_of: nil
-  coast_1: nil
-  coast_2: nil 
+  home_of: null
+  coast_1: null
+  coast_2: null 
 
 gal:
   province_code: 'gal'
@@ -222,8 +222,8 @@ gal:
   province_type: 'land'
   is_sc: 0
   home_of: 'au'
-  coast_1: nil
-  coast_2: nil 
+  coast_1: null
+  coast_2: null 
 
 gas:
   province_code: 'gas'
@@ -231,53 +231,53 @@ gas:
   province_type: 'coast'
   is_sc: 0
   home_of: 'fr'
-  coast_1: nil
-  coast_2: nil 
+  coast_1: null
+  coast_2: null 
 
 gre:
   province_code: 'gre'
   name: 'greece'
   province_type: 'coast'
   is_sc: 1
-  home_of: nil
-  coast_1: nil
-  coast_2: nil 
+  home_of: null
+  coast_1: null
+  coast_2: null 
 
 hel:
   province_code: 'hel'
   name: 'helgoland bight'
   province_type: 'sea'
   is_sc: 0
-  home_of: nil
-  coast_1: nil
-  coast_2: nil 
+  home_of: null
+  coast_1: null
+  coast_2: null 
 
 hol:
   province_code: 'hol'
   name: 'holland'
   province_type: 'coast'
   is_sc: 1
-  home_of: nil
-  coast_1: nil
-  coast_2: nil 
+  home_of: null
+  coast_1: null
+  coast_2: null 
 
 ion:
   province_code: 'ion'
   name: 'ionian sea'
   province_type: 'sea'
   is_sc: 0
-  home_of: nil
-  coast_1: nil
-  coast_2: nil 
+  home_of: null
+  coast_1: null
+  coast_2: null 
 
 iri:
   province_code: 'iri'
   name: 'irish sea'
   province_type: 'sea'
   is_sc: 0
-  home_of: nil
-  coast_1: nil
-  coast_2: nil 
+  home_of: null
+  coast_1: null
+  coast_2: null 
 
 kie:
   province_code: 'kie'
@@ -285,8 +285,8 @@ kie:
   province_type: 'coast'
   is_sc: 1
   home_of: 'de'
-  coast_1: nil
-  coast_2: nil 
+  coast_1: null
+  coast_2: null 
 
 lon:
   province_code: 'lon'
@@ -294,8 +294,8 @@ lon:
   province_type: 'coast'
   is_sc: 1
   home_of: 'en'
-  coast_1: nil
-  coast_2: nil 
+  coast_1: null
+  coast_2: null 
 
 lvp:
   province_code: 'lvp'
@@ -303,8 +303,8 @@ lvp:
   province_type: 'coast'
   is_sc: 1
   home_of: 'en'
-  coast_1: nil
-  coast_2: nil 
+  coast_1: null
+  coast_2: null 
 
 lvn:
   province_code: 'lvn'
@@ -312,17 +312,17 @@ lvn:
   province_type: 'coast'
   is_sc: 0
   home_of: 'ru'
-  coast_1: nil
-  coast_2: nil 
+  coast_1: null
+  coast_2: null 
 
 lyo:
   province_code: 'lyo'
   name: 'gulf of lyons'
   province_type: 'sea'
   is_sc: 0
-  home_of: nil
-  coast_1: nil
-  coast_2: nil 
+  home_of: null
+  coast_1: null
+  coast_2: null 
 
 mar:
   province_code: 'mar'
@@ -330,17 +330,17 @@ mar:
   province_type: 'coast'
   is_sc: 1
   home_of: 'fr'
-  coast_1: nil
-  coast_2: nil 
+  coast_1: null
+  coast_2: null 
 
 mid:
   province_code: 'mid'
   name: 'mid-atlantic ocean'
   province_type: 'sea'
   is_sc: 0
-  home_of: nil
-  coast_1: nil
-  coast_2: nil 
+  home_of: null
+  coast_1: null
+  coast_2: null 
 
 mos:
   province_code: 'mos'
@@ -348,8 +348,8 @@ mos:
   province_type: 'land'
   is_sc: 1
   home_of: 'ru'
-  coast_1: nil
-  coast_2: nil 
+  coast_1: null
+  coast_2: null 
 
 mun:
   province_code: 'mun'
@@ -357,17 +357,17 @@ mun:
   province_type: 'land'
   is_sc: 1
   home_of: 'de'
-  coast_1: nil
-  coast_2: nil 
+  coast_1: null
+  coast_2: null 
 
 naf:
   province_code: 'naf'
   name: 'north africa'
   province_type: 'coast'
   is_sc: 0
-  home_of: nil
-  coast_1: nil
-  coast_2: nil 
+  home_of: null
+  coast_1: null
+  coast_2: null 
 
 nap:
   province_code: 'nap'
@@ -375,44 +375,44 @@ nap:
   province_type: 'coast'
   is_sc: 1
   home_of: 'it'
-  coast_1: nil
-  coast_2: nil 
+  coast_1: null
+  coast_2: null 
 
 nat:
   province_code: 'nat'
   name: 'north atlantic ocean'
   province_type: 'sea'
   is_sc: 0
-  home_of: nil
-  coast_1: nil
-  coast_2: nil 
+  home_of: null
+  coast_1: null
+  coast_2: null 
 
 nrg:
   province_code: 'nrg'
   name: 'norwegian sea'
   province_type: 'sea'
   is_sc: 0
-  home_of: nil
-  coast_1: nil
-  coast_2: nil 
+  home_of: null
+  coast_1: null
+  coast_2: null 
 
 nth:
   province_code: 'nth'
   name: 'north sea'
   province_type: 'sea'
   is_sc: 0
-  home_of: nil
-  coast_1: nil
-  coast_2: nil 
+  home_of: null
+  coast_1: null
+  coast_2: null 
 
 nor:
   province_code: 'nor'
   name: 'norway'
   province_type: 'coast'
   is_sc: 1
-  home_of: nil
-  coast_1: nil
-  coast_2: nil 
+  home_of: null
+  coast_1: null
+  coast_2: null 
 
 par:
   province_code: 'par'
@@ -420,8 +420,8 @@ par:
   province_type: 'land'
   is_sc: 1
   home_of: 'fr'
-  coast_1: nil
-  coast_2: nil 
+  coast_1: null
+  coast_2: null 
 
 pic:
   province_code: 'pic'
@@ -429,8 +429,8 @@ pic:
   province_type: 'coast'
   is_sc: 0
   home_of: 'fr'
-  coast_1: nil
-  coast_2: nil 
+  coast_1: null
+  coast_2: null 
 
 pie:
   province_code: 'pie'
@@ -438,17 +438,17 @@ pie:
   province_type: 'coast'
   is_sc: 0
   home_of: 'it'
-  coast_1: nil
-  coast_2: nil 
+  coast_1: null
+  coast_2: null 
 
 por:
   province_code: 'por'
   name: 'portugal'
   province_type: 'coast'
   is_sc: 1
-  home_of: nil
-  coast_1: nil
-  coast_2: nil 
+  home_of: null
+  coast_1: null
+  coast_2: null 
 
 pru:
   province_code: 'pru'
@@ -456,8 +456,8 @@ pru:
   province_type: 'coast'
   is_sc: 0
   home_of: 'de'
-  coast_1: nil
-  coast_2: nil 
+  coast_1: null
+  coast_2: null 
 
 rom:
   province_code: 'rom'
@@ -465,8 +465,8 @@ rom:
   province_type: 'coast'
   is_sc: 1
   home_of: 'it'
-  coast_1: nil
-  coast_2: nil 
+  coast_1: null
+  coast_2: null 
 
 ruh:
   province_code: 'ruh'
@@ -474,26 +474,26 @@ ruh:
   province_type: 'land'
   is_sc: 0
   home_of: 'de'
-  coast_1: nil
-  coast_2: nil 
+  coast_1: null
+  coast_2: null 
 
 rum:
   province_code: 'rum'
   name: 'rumania'
   province_type: 'coast'
   is_sc: 1
-  home_of: nil
-  coast_1: nil
-  coast_2: nil 
+  home_of: null
+  coast_1: null
+  coast_2: null 
 
 ser:
   province_code: 'ser'
   name: 'serbia'
   province_type: 'land'
   is_sc: 1
-  home_of: nil
-  coast_1: nil
-  coast_2: nil 
+  home_of: null
+  coast_1: null
+  coast_2: null 
 
 sev:
   province_code: 'sev'
@@ -501,8 +501,8 @@ sev:
   province_type: 'coast'
   is_sc: 1
   home_of: 'ru'
-  coast_1: nil
-  coast_2: nil 
+  coast_1: null
+  coast_2: null 
 
 sil:
   province_code: 'sil'
@@ -510,17 +510,17 @@ sil:
   province_type: 'land'
   is_sc: 0
   home_of: 'de'
-  coast_1: nil
-  coast_2: nil 
+  coast_1: null
+  coast_2: null 
 
 ska:
   province_code: 'ska'
   name: 'skagerrack'
   province_type: 'sea'
   is_sc: 0
-  home_of: nil
-  coast_1: nil
-  coast_2: nil 
+  home_of: null
+  coast_1: null
+  coast_2: null 
 
 smy:
   province_code: 'smy'
@@ -528,15 +528,15 @@ smy:
   province_type: 'coast'
   is_sc: 1
   home_of: 'tr'
-  coast_1: nil
-  coast_2: nil 
+  coast_1: null
+  coast_2: null 
 
 spa:
   province_code: 'spa'
   name: 'spain'
   province_type: 'coast'
   is_sc: 1
-  home_of: nil
+  home_of: null
   coast_1: 'sc'
   coast_2: 'nc' 
 
@@ -554,9 +554,9 @@ swe:
   name: 'sweden'
   province_type: 'coast'
   is_sc: 1
-  home_of: nil
-  coast_1: nil
-  coast_2: nil 
+  home_of: null
+  coast_1: null
+  coast_2: null 
 
 syr:
   province_code: 'syr'
@@ -564,8 +564,8 @@ syr:
   province_type: 'coast'
   is_sc: 0
   home_of: 'tr'
-  coast_1: nil
-  coast_2: nil 
+  coast_1: null
+  coast_2: null 
 
 tri:
   province_code: 'tri'
@@ -573,26 +573,26 @@ tri:
   province_type: 'coast'
   is_sc: 1
   home_of: 'au'
-  coast_1: nil
-  coast_2: nil 
+  coast_1: null
+  coast_2: null 
 
 tro:
   province_code: 'tro'
   name: 'tyrolia'
   province_type: 'land'
   is_sc: 0
-  home_of: nil
-  coast_1: nil
-  coast_2: nil 
+  home_of: null
+  coast_1: null
+  coast_2: null 
 
 tun:
   province_code: 'tun'
   name: 'tunis'
   province_type: 'coast'
   is_sc: 1
-  home_of: nil
-  coast_1: nil
-  coast_2: nil 
+  home_of: null
+  coast_1: null
+  coast_2: null 
 
 tus:
   province_code: 'tus'
@@ -600,17 +600,17 @@ tus:
   province_type: 'coast'
   is_sc: 0
   home_of: 'it'
-  coast_1: nil
-  coast_2: nil 
+  coast_1: null
+  coast_2: null 
 
 trn:
   province_code: 'trn'
   name: 'tyrrhenian sea'
   province_type: 'sea'
   is_sc: 0
-  home_of: nil
-  coast_1: nil
-  coast_2: nil 
+  home_of: null
+  coast_1: null
+  coast_2: null 
 
 ukr:
   province_code: 'ukr'
@@ -618,8 +618,8 @@ ukr:
   province_type: 'land'
   is_sc: 0
   home_of: 'ru'
-  coast_1: nil
-  coast_2: nil 
+  coast_1: null
+  coast_2: null 
 
 ven:
   province_code: 'ven'
@@ -627,8 +627,8 @@ ven:
   province_type: 'coast'
   is_sc: 1
   home_of: 'it'
-  coast_1: nil
-  coast_2: nil 
+  coast_1: null
+  coast_2: null 
 
 vie:
   province_code: 'vie'
@@ -636,8 +636,8 @@ vie:
   province_type: 'land'
   is_sc: 1
   home_of: 'au'
-  coast_1: nil
-  coast_2: nil 
+  coast_1: null
+  coast_2: null 
 
 wal:
   province_code: 'wal'
@@ -645,8 +645,8 @@ wal:
   province_type: 'coast'
   is_sc: 0
   home_of: 'en'
-  coast_1: nil
-  coast_2: nil 
+  coast_1: null
+  coast_2: null 
 
 war:
   province_code: 'war'
@@ -654,17 +654,17 @@ war:
   province_type: 'land'
   is_sc: 1
   home_of: 'ru'
-  coast_1: nil
-  coast_2: nil 
+  coast_1: null
+  coast_2: null 
 
 wes:
   province_code: 'wes'
   name: 'western mediterranean'
   province_type: 'sea'
   is_sc: 0
-  home_of: nil
-  coast_1: nil
-  coast_2: nil 
+  home_of: null
+  coast_1: null
+  coast_2: null 
 
 yor:
   province_code: 'yor'
@@ -672,5 +672,5 @@ yor:
   province_type: 'coast'
   is_sc: 0
   home_of: 'en'
-  coast_1: nil
-  coast_2: nil 
+  coast_1: null
+  coast_2: null 

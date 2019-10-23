@@ -10,6 +10,16 @@ fr_army_pic:
   current_province: 'pic'
   game_country: game_country_fr
 
+fr_army_spa:
+  unit_type: 'a'
+  current_province: 'spa'
+  game_country: game_country_fr
+
+fr_army_por:
+  unit_type: 'a'
+  current_province: 'por'
+  game_country: game_country_fr
+
 fr_fleet_bre:
   unit_type: 'f'
   current_province: 'bre'
@@ -19,6 +29,21 @@ fr_fleet_eng:
   unit_type: 'f'
   current_province: 'eng'
   game_country: game_country_fr
+
+en_army_lon:
+  unit_type: 'a'
+  current_province: 'lon'
+  game_country: game_country_en
+
+en_army_yor:
+  unit_type: 'a'
+  current_province: 'yor'
+  game_country: game_country_en
+
+en_fleet_nth:
+  unit_type: 'f'
+  current_province: 'nth'
+  game_country: game_country_en
 
 de_army_ber:
   unit_type: 'a'
@@ -30,6 +55,21 @@ de_army_mun:
   current_province: 'mun'
   game_country: game_country_de
 
+it_fleet_wes:
+  unit_type: 'f'
+  current_province: 'wes'
+  game_country: game_country_it
+
+it_army_rom:
+  unit_type: 'a'
+  current_province: 'rom'
+  game_country: game_country_it
+
+it_fleet_por:
+  unit_type: 'f'
+  current_province: 'por'
+  game_country: game_country_it
+
 tr_army_con:
   unit_type: 'a'
   current_province: 'con'
@@ -38,4 +78,9 @@ tr_army_con:
 tr_fleet_aeg:
   unit_type: 'f'
   current_province: 'aeg'
+  game_country: game_country_tr
+
+tr_fleet_eas:
+  unit_type: 'f'
+  current_province: 'eas'
   game_country: game_country_tr
